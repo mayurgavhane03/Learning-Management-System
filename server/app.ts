@@ -4,6 +4,7 @@ export const app = express();
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import connectDB from './utils/db';
+import { ErrorMiddleware } from './middleware/error';
 
 // Body parser
 app.use(express.json({ limit: "50mb" }));
@@ -30,3 +31,5 @@ app.all( "*", (req:Request, res:Response, next:NextFunction) => {
     err.statusCode = 400;
     next(err)
 })
+
+app.use(ErrorMiddleware)
