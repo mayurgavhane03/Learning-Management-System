@@ -5,7 +5,7 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 import connectDB from './utils/db';
 import { ErrorMiddleware } from './middleware/error';
-
+import userRouter from './routes/user.route';
 // Body parser
 app.use(express.json({ limit: "50mb" }));
 
@@ -16,6 +16,9 @@ app.use(cookieParser());
 app.use(cors({
     origin: process.env.ORIGIN
 }));
+
+app.use("/api/v1", userRouter)
+
 
 // Testing API
 app.get("/test", (req: Request, res: Response, next: NextFunction) => {
