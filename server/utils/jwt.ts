@@ -41,7 +41,7 @@ export const refreshTokenOptions: ITokenOptions = {
 export const sendToken = (user: IUser, statusCode: number, res: Response) => {
   const accessToken = user.SignAccessToken();
   const refreshToken = user.SignRefreshToken();
-    console.log(accessToken)
+
   // upload session to redis
   redis.set(user._id as any, JSON.stringify(user) as any,);
 
