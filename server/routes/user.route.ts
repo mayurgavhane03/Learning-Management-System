@@ -1,6 +1,6 @@
 import express from 'express';
-import { activateUser, loginUser, logoutUser, registrationUser } from '../controllers/user.controller';
-import { isAuthenticated } from '../middleware/auth';
+import { activateUser, getuserInfo, loginUser, logoutUser, registrationUser, socialAuth, updateAccessToken,  } from '../controllers/user.controller';
+import { authorizeRoles, isAutheticated } from '../middleware/auth';
 
 
 
@@ -12,7 +12,10 @@ userRouter.post("/activate-user", activateUser);
 
 userRouter.post("/login", loginUser);
 
-userRouter.get('/logout',isAuthenticated, logoutUser)
+userRouter.get('/logout', isAutheticated, logoutUser)
 
+userRouter.get('/me', isAutheticated, getuserInfo)
+
+userRouter.post('/socialAuth', socialAuth)
 
 export default userRouter
