@@ -6,6 +6,8 @@ import cookieParser from "cookie-parser";
 import connectDB from './utils/db';
 import { ErrorMiddleware } from './middleware/error';
 import userRouter from './routes/user.route';
+import courseRouter from './routes/course.routes';
+
 // Body parser
 app.use(express.json({ limit: "50mb" }));
 
@@ -18,6 +20,7 @@ app.use(cors({
 }));
 
 app.use("/api/v1", userRouter)
+app.use("/api/v1",courseRouter)
 
 
 // Testing API

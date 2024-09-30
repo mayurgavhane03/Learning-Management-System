@@ -24,4 +24,5 @@ userRouter.put("/update-user-password", isAutheticated, updatePassword)
 
 userRouter.put("/update-user-avatar", isAutheticated, updateProfilePicture)
 
+
 export default userRouter
