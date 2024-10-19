@@ -6,7 +6,7 @@ import cookieParser from "cookie-parser";
 import connectDB from './utils/db';
 import { ErrorMiddleware } from './middleware/error';
 import userRouter from './routes/user.route';
-import courseRouter from './routes/course.routes';
+import courseRouter from './routes/course.route';
 
 // Body parser
 app.use(express.json({ limit: "50mb" }));
