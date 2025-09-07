@@ -2,7 +2,7 @@ import { NextFunction, Request, Response } from "express";
 import { CatchAsyncError } from "../middleware/catchAsyncError";
 import ErrorHandler from "../utils/ErrorHandler";
 import cloudinary from "cloudinary";
-import { createCourse } from "../services/course.service";
+import { createCourse, getAllCoursesService } from "../services/course.service";
 import CourseModel from "../models/course.model";
 import { redis } from "../utils/redis";
 import { IUser } from "../models/user.model";
@@ -31,7 +31,7 @@ export const uploadCourse = CatchAsyncError(
       }
 
       createCourse(data, res, next);
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 500));
     }
   }
@@ -68,7 +68,7 @@ export const editCourse = CatchAsyncError(
           course,
         });
       }
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 500));
     }
   }
@@ -103,7 +103,7 @@ export const getSingleCourse = CatchAsyncError(
           course,
         });
       }
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 500));
     }
   }
@@ -131,7 +131,7 @@ export const getAllCourses = CatchAsyncError(
           courses,
         });
       }
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 500));
     }
   }
@@ -164,7 +164,7 @@ export const getCourseByUser = CatchAsyncError(
         success: true,
         content,
       });
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 500));
     }
   }
@@ -193,7 +193,12 @@ export const addQuestion = CatchAsyncError(
       );
 
       if (!courseContent) {
-        return next(new ErrorHandler("Invalid Conent id", 400));
+        return next(
+          new ErrorHandler(
+            "Invalid Conent ihttps://www.youtube.com/watch?v=uXUl2U5nqz4d",
+            400
+          )
+        );
       }
 
       const newQuestion: any = {
@@ -211,7 +216,7 @@ export const addQuestion = CatchAsyncError(
         success: true,
         course,
       });
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 500));
     }
   }
@@ -229,8 +234,12 @@ interface IAddAnswerData {
 export const addAnwser = CatchAsyncError(
   async (req: Request, res: Response, next: NextFunction) => {
     try {
-      const { answer, courseId, contentId, questionId }: IAddAnswerData =
-        req.body;
+      const {
+        answer,
+        courseId,
+        contentId,
+        questionId,
+      }: IAddAnswerData = req.body;
 
       const course = await CourseModel.findById(courseId);
 
@@ -289,7 +298,7 @@ export const addAnwser = CatchAsyncError(
             template: "question-reply.ejs",
             data,
           });
-        } catch (error: any) {
+        } catch (error:any) {
           return next(new ErrorHandler(error.message, 500));
         }
       }
@@ -298,7 +307,7 @@ export const addAnwser = CatchAsyncError(
         success: true,
         course,
       });
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 500));
     }
   }
@@ -367,7 +376,7 @@ export const addReview = CatchAsyncError(
         success: true,
         course,
       });
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 500));
     }
   }
@@ -419,8 +428,19 @@ export const addReplyToReview = CatchAsyncError(
         success: true,
         course,
       });
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 500));
     }
   }
 );
+
+//get all courses - only for admin
+export const getAllUsers = async (res: Response) => {
+  async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      getAllCoursesService(res);
+    } catch (error:any) {
+      return next(new ErrorHandler(error.message, 400));
+    }
+  };
+};

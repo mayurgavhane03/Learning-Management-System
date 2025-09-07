@@ -7,14 +7,14 @@ import jwt, { JwtPayload, Secret } from "jsonwebtoken";
 import ejs from "ejs";
 import path from "path";
 import sendMail from "../utils/sendMail";
-import cloudinary from "cloudinary"
+import cloudinary from "cloudinary";
 import {
   accessTokenOptions,
   refreshTokenOptions,
   sendToken,
 } from "../utils/jwt";
 import { redis } from "../utils/redis";
-import { getUserId } from "../services/user.service";
+import { getAllUsersService, getUserId, updateUserRoleService } from "../services/user.service";
 
 // register User
 
@@ -64,10 +64,10 @@ export const registrationUser = CatchAsyncError(
           message: `Please check your email: ${user.email} to activate your account!`,
           activationToken: activationToken.token,
         });
-      } catch (error: any) {
+      } catch (error:any) {
         return next(new ErrorHandler(error.message, 400));
       }
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 400));
     }
   }
@@ -105,8 +105,10 @@ interface IActivationRequest {
 export const activateUser = CatchAsyncError(
   async (req: Request, res: Response, next: NextFunction) => {
     try {
-      const { activation_token, activation_code } =
-        req.body as IActivationRequest;
+      const {
+        activation_token,
+        activation_code,
+      } = req.body as IActivationRequest;
 
       const newUser: { user: IUser; activationCode: string } = jwt.verify(
         activation_token,
@@ -131,7 +133,7 @@ export const activateUser = CatchAsyncError(
       res.status(201).json({
         success: true,
       });
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 400));
     }
   }
@@ -171,7 +173,7 @@ export const loginUser = CatchAsyncError(
       }
 
       sendToken(user, 200, res);
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 400));
     }
   }
@@ -224,7 +226,7 @@ export const updateAccessToken = CatchAsyncError(
       await redis.set(user._id, JSON.stringify(user), "EX", 604800); // 7days
 
       return next();
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 400));
     }
   }
@@ -242,7 +244,7 @@ export const logoutUser = CatchAsyncError(
         success: true,
         message: "Logged out successfully",
       });
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 400));
     }
   }
@@ -254,7 +256,7 @@ export const getuserInfo = CatchAsyncError(
       const user = req.user as IUser;
       const id = user?._id as string;
       getUserId(id, res);
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 401));
     }
   }
@@ -278,7 +280,7 @@ export const socialAuth = CatchAsyncError(
       } else {
         sendToken(user, 200, res);
       }
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 400));
     }
   }
@@ -316,7 +318,7 @@ export const updateUserInfo = CatchAsyncError(
           user,
         });
       }
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 401));
     }
   }
@@ -353,21 +355,21 @@ export const updatePassword = CatchAsyncError(
 
       await user.save();
       // getting id from other function as it is declare already
-      console.log(id)
-     
+      console.log(id);
+
       await redis.set(id, JSON.stringify(user));
 
       res.status(201).json({
         success: true,
         user,
       });
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 400));
     }
   }
 );
 
-interface IUpdateProfilePicture{
+interface IUpdateProfilePicture {
   avatar: string;
 }
 
@@ -413,8 +415,31 @@ export const updateProfilePicture = CatchAsyncError(
         success: true,
         user,
       });
-    } catch (error: any) {
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 400));
     }
   }
 );
+
+//get all user - only for admin
+export const getAllUsers = async (res: Response) => {
+ async (req:Request, res:Response, next: NextFunction) =>{
+  try {
+    console.log("get users called")
+     getAllUsersService(res)
+  }catch(error:any){
+    return next(new ErrorHandler(error.message, 400))
+  }
+ }
+};
+
+
+
+export const updateUserRole = CatchAsyncError(async(req:Request, res:Response, next:NextFunction)=>{
+  try{
+    const {id, role} =  req.body;
+    updateUserRoleService(res, id, role)
+  }catch(error:any){
+    return next(new ErrorHandler(error.message, 400))
+  }
+})

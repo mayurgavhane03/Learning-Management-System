@@ -9,7 +9,7 @@ import ejs from "ejs";
 import sendMail from "../utils/sendMail";
 import NotificationModel from "../models/notification.model";
 import { redis } from "../utils/redis";
-import { newOrder } from "../services/order.service";
+import { getAllOrdersService, newOrder } from "../services/order.service";
 
 // create order
 export const createOrder = CatchAsyncError(
@@ -83,7 +83,7 @@ export const createOrder = CatchAsyncError(
             data: mailData,
           });
         }
-      } catch (error: any) {
+      } catch (error:any) {
         return next(new ErrorHandler(error.message, 500));
       }
 
@@ -104,7 +104,17 @@ export const createOrder = CatchAsyncError(
       await course.save();
 
       newOrder(data, res, next);
-    } catch (error: any) {
+    } catch (error:any) {
+      return next(new ErrorHandler(error.message, 500));
+    }
+  }
+);
+
+export const getAllOrders = CatchAsyncError(
+  async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      getAllOrdersService(res);
+    } catch (error:any) {
       return next(new ErrorHandler(error.message, 500));
     }
   }
