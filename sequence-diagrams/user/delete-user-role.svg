@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1144px" preserveAspectRatio="none" style="width:1309px;height:1144px;background:#FFFFFF;" version="1.1" viewBox="0 0 1309 1144" width="1309px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="551.3906" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="1277.5" x="15" y="494.4219"/><path d="M15,644.3516 L1292.5,644.3516 L1292.5,1035.8125 A10,10 0 0 1 1282.5,1045.8125 L25,1045.8125 A10,10 0 0 1 15,1035.8125 L15,644.3516 " fill="#FFFFFF" style="stroke:none;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="47" x2="47" y1="82.2969" y2="1062.8125"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="167" x2="167" y1="82.2969" y2="1062.8125"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="345.5" x2="345.5" y1="82.2969" y2="1062.8125"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="493.5" x2="493.5" y1="82.2969" y2="1062.8125"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="628.5" x2="628.5" y1="82.2969" y2="1062.8125"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="750.5" x2="750.5" y1="82.2969" y2="1062.8125"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="850.5" x2="850.5" y1="82.2969" y2="1062.8125"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="926.5" x2="926.5" y1="82.2969" y2="1062.8125"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1001.5" x2="1001.5" y1="82.2969" y2="1062.8125"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1099.5" x2="1099.5" y1="82.2969" y2="1062.8125"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1222.5" x2="1222.5" y1="82.2969" y2="1062.8125"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="25" y="78.9951">Client</text><ellipse cx="47.5" cy="14" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M47.5,22 L47.5,49 M34.5,30 L60.5,30 M47.5,49 L34.5,64 M47.5,49 L60.5,64 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="25" y="1074.8076">Client</text><ellipse cx="47.5" cy="1087.1094" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M47.5,1095.1094 L47.5,1122.1094 M34.5,1103.1094 L60.5,1103.1094 M47.5,1122.1094 L34.5,1137.1094 M47.5,1122.1094 L60.5,1137.1094 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="93" x="121" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="79" x="128" y="70.9951">UserRouter</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="93" x="121" y="1061.8125"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="79" x="128" y="1081.8076">UserRouter</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="124" x="283.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="110" x="290.5" y="70.9951">AuthMiddleware</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="124" x="283.5" y="1061.8125"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="110" x="290.5" y="1081.8076">AuthMiddleware</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="113" x="437.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="444.5" y="70.9951">UserController</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="113" x="437.5" y="1061.8125"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="444.5" y="1081.8076">UserController</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="96" x="580.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="82" x="587.5" y="70.9951">UserService</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="96" x="580.5" y="1061.8125"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="82" x="587.5" y="1081.8076">UserService</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="88" x="706.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="74" x="713.5" y="70.9951">UserModel</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="88" x="706.5" y="1061.8125"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="74" x="713.5" y="1081.8076">UserModel</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="53" x="824.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="831.5" y="70.9951">Redis</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="53" x="824.5" y="1061.8125"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="831.5" y="1081.8076">Redis</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="39" x="907.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="25" x="914.5" y="70.9951">JWT</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="39" x="907.5" y="1061.8125"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="25" x="914.5" y="1081.8076">JWT</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="50" x="976.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="36" x="983.5" y="70.9951">Email</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="50" x="976.5" y="1061.8125"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="36" x="983.5" y="1081.8076">Email</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="86" x="1056.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="1063.5" y="70.9951">Cloudinary</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="86" x="1056.5" y="1061.8125"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="1063.5" y="1081.8076">Cloudinary</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="100" x="1172.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="1179.5" y="70.9951">ErrorHandler</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="100" x="1172.5" y="1061.8125"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="1179.5" y="1081.8076">ErrorHandler</text><rect fill="#FFFFFF" height="3" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.0;" width="1297.5" x="5" y="112.8633"/><line style="stroke:#000000;stroke-width:0.5;" x1="5" x2="1302.5" y1="112.8633" y2="112.8633"/><line style="stroke:#000000;stroke-width:0.5;" x1="5" x2="1302.5" y1="115.8633" y2="115.8633"/><rect fill="#FFFFFF" height="23.1328" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="208" x="549.75" y="102.2969"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="189" x="555.75" y="118.3638">Delete User (Admin) Flow</text><polygon fill="#000000" points="155.5,167.6953,165.5,171.6953,155.5,175.6953,159.5,171.6953" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="47.5" x2="161.5" y1="171.6953" y2="171.6953"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="48" x="54.5" y="151.4966">DELETE</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="96" x="54.5" y="166.6294">/delete-user/:id</text><polygon fill="#000000" points="333.5,196.8281,343.5,200.8281,333.5,204.8281,337.5,200.8281" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="167.5" x2="339.5" y1="200.8281" y2="200.8281"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="110" x="174.5" y="195.7622">isAuthenticated()</text><polygon fill="#000000" points="178.5,241.0938,168.5,245.0938,178.5,249.0938,174.5,245.0938" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="172.5" x2="344.5" y1="245.0938" y2="245.0938"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="28" x="184.5" y="224.895">user</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="89" x="184.5" y="240.0278">authenticated</text><polygon fill="#000000" points="333.5,270.2266,343.5,274.2266,333.5,278.2266,337.5,274.2266" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="167.5" x2="339.5" y1="274.2266" y2="274.2266"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="154" x="174.5" y="269.1606">authorizeRoles("admin")</text><polygon fill="#000000" points="178.5,329.625,168.5,333.625,178.5,337.625,174.5,333.625" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="172.5" x2="344.5" y1="333.625" y2="333.625"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="40" x="184.5" y="298.2935">admin</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="24" x="184.5" y="313.4263">role</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="68" x="184.5" y="328.5591">authorized</text><polygon fill="#000000" points="482,358.7578,492,362.7578,482,366.7578,486,362.7578" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="167.5" x2="488" y1="362.7578" y2="362.7578"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="80" x="174.5" y="357.6919">deleteUser()</text><line style="stroke:#000000;stroke-width:2.0;" x1="494" x2="536" y1="437.2891" y2="437.2891"/><line style="stroke:#000000;stroke-width:2.0;" x1="536" x2="536" y1="437.2891" y2="450.2891"/><line style="stroke:#000000;stroke-width:2.0;" x1="495" x2="536" y1="450.2891" y2="450.2891"/><polygon fill="#000000" points="505,446.2891,495,450.2891,505,454.2891,501,450.2891" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="45" x="501" y="386.8247">extract</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="27" x="501" y="401.9575">{id}</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="30" x="501" y="417.0903">from</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="74" x="501" y="432.2231">req.params</text><polygon fill="#000000" points="738.5,475.4219,748.5,479.4219,738.5,483.4219,742.5,479.4219" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="494" x2="744.5" y1="479.4219" y2="479.4219"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="71" x="501" y="474.356">findById(id)</text><path d="M25,494.4219 L79,494.4219 L79,501.5547 L69,511.5547 L15,511.5547 L15,504.4219 A10,10 0 0 1 25,494.4219 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="551.3906" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="1277.5" x="15" y="494.4219"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="30" y="507.4888">alt</text><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="105" x="94" y="506.6323">[User not found]</text><polygon fill="#000000" points="505,528.6875,495,532.6875,505,536.6875,501,532.6875" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="499" x2="749.5" y1="532.6875" y2="532.6875"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="22" x="511" y="527.6216">null</text><polygon fill="#000000" points="1210.5,588.0859,1220.5,592.0859,1210.5,596.0859,1214.5,592.0859" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="494" x2="1216.5" y1="592.0859" y2="592.0859"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="60" x="501" y="556.7544">"User not</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="45" x="501" y="571.8872">found",</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="24" x="501" y="587.02">404</text><polygon fill="#000000" points="58.5,632.3516,48.5,636.3516,58.5,640.3516,54.5,636.3516" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="52.5" x2="1221.5" y1="636.3516" y2="636.3516"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="59" x="64.5" y="616.1528">404 Error</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="62" x="64.5" y="631.2856">Response</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="15" x2="1292.5" y1="645.3516" y2="645.3516"/><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="80" x="20" y="655.562">[User found]</text><polygon fill="#000000" points="505,691.4219,495,695.4219,505,699.4219,501,695.4219" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="499" x2="749.5" y1="695.4219" y2="695.4219"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="28" x="511" y="675.2231">user</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="36" x="511" y="690.356">found</text><polygon fill="#000000" points="738.5,720.5547,748.5,724.5547,738.5,728.5547,742.5,724.5547" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="494" x2="744.5" y1="724.5547" y2="724.5547"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="103" x="501" y="719.4888">deleteOne({id})</text><polygon fill="#000000" points="505,795.0859,495,799.0859,505,803.0859,501,799.0859" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="499" x2="749.5" y1="799.0859" y2="799.0859"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="28" x="511" y="748.6216">user</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="48" x="511" y="763.7544">deleted</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="30" x="511" y="778.8872">from</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="60" x="511" y="794.02">database</text><polygon fill="#000000" points="839,824.2188,849,828.2188,839,832.2188,843,828.2188" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="494" x2="845" y1="828.2188" y2="828.2188"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="40" x="501" y="823.1528">del(id)</text><polygon fill="#000000" points="505,913.8828,495,917.8828,505,921.8828,501,917.8828" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="499" x2="850" y1="917.8828" y2="917.8828"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="28" x="511" y="852.2856">user</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="48" x="511" y="867.4185">session</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="47" x="511" y="882.5513">cleared</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="30" x="511" y="897.6841">from</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="38" x="511" y="912.8169">cache</text><polygon fill="#000000" points="58.5,1033.8125,48.5,1037.8125,58.5,1041.8125,54.5,1037.8125" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="52.5" x2="493" y1="1037.8125" y2="1037.8125"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="24" x="64.5" y="941.9497">200</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="63" x="64.5" y="957.0825">{success:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="30" x="64.5" y="972.2153">true,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="63" x="64.5" y="987.3481">message:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="35" x="64.5" y="1002.481">"User</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="48" x="64.5" y="1017.6138">deleted</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="89" x="64.5" y="1032.7466">successfully"}</text><!--MD5=[3769d858cc40bba3489b150593436a4a]
+@startuml
+!theme plain
+skinparam backgroundColor #FFFFFF
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 20
+skinparam maxmessagesize 60
+
+actor Client
+participant "UserRouter" as Router
+participant "AuthMiddleware" as Auth
+participant "UserController" as Controller
+participant "UserService" as Service
+participant "UserModel" as Model
+participant "Redis" as Redis
+participant "JWT" as JWT
+participant "Email" as Email
+participant "Cloudinary" as Cloud
+participant "ErrorHandler" as Error
+
+ 
+== Delete User (Admin) Flow ==
+Client -> Router: DELETE /delete-user/:id
+Router -> Auth: isAuthenticated()
+Auth - -> Router: user authenticated
+Router -> Auth: authorizeRoles("admin")
+Auth - -> Router: admin role authorized
+Router -> Controller: deleteUser()
+Controller -> Controller: extract {id} from req.params
+Controller -> Model: findById(id)
+
+alt User not found
+    Model - -> Controller: null
+    Controller -> Error: "User not found", 404
+    Error - -> Client: 404 Error Response
+else User found
+    Model - -> Controller: user found
+    Controller -> Model: deleteOne({id})
+    Model - -> Controller: user deleted from database
+    Controller -> Redis: del(id)
+    Redis - -> Controller: user session cleared from cache
+    Controller - -> Client: 200 {success: true,\nmessage: "User deleted successfully"}
+end
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor white
+    FontColor black
+    FontName Verdana
+    HyperLinkColor blue
+    LineColor black
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor black
+skinparam BackgroundColor white
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor black
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor black
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor black
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor white
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor black
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor black
+  FontName Verdana
+}
+skinparam Header {
+  FontColor black
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color blue
+}
+skinparam IconPackage {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPrivate {
+  Color black
+  BackgroundColor white
+}
+skinparam IconProtected {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPublic {
+  Color black
+  BackgroundColor white
+}
+skinparam Note {
+  FontColor black
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor black
+}
+skinparam Package {
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeA {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeC {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeE {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeI {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeN {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam UseCaseStereoType {
+  FontColor black
+  FontName Verdana
+}
+skinparam backgroundColor #FFFFFF
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 20
+skinparam maxmessagesize 60
+
+actor Client
+participant "UserRouter" as Router
+participant "AuthMiddleware" as Auth
+participant "UserController" as Controller
+participant "UserService" as Service
+participant "UserModel" as Model
+participant "Redis" as Redis
+participant "JWT" as JWT
+participant "Email" as Email
+participant "Cloudinary" as Cloud
+participant "ErrorHandler" as Error
+
+ 
+== Delete User (Admin) Flow ==
+Client -> Router: DELETE /delete-user/:id
+Router -> Auth: isAuthenticated()
+Auth - -> Router: user authenticated
+Router -> Auth: authorizeRoles("admin")
+Auth - -> Router: admin role authorized
+Router -> Controller: deleteUser()
+Controller -> Controller: extract {id} from req.params
+Controller -> Model: findById(id)
+
+alt User not found
+    Model - -> Controller: null
+    Controller -> Error: "User not found", 404
+    Error - -> Client: 404 Error Response
+else User found
+    Model - -> Controller: user found
+    Controller -> Model: deleteOne({id})
+    Model - -> Controller: user deleted from database
+    Controller -> Redis: del(id)
+    Redis - -> Controller: user session cleared from cache
+    Controller - -> Client: 200 {success: true,\nmessage: "User deleted successfully"}
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

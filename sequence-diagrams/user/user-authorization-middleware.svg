@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="757px" preserveAspectRatio="none" style="width:1271px;height:757px;background:#FFFFFF;" version="1.1" viewBox="0 0 1271 757" width="1271px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="270.6641" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="1239.5" x="15" y="388.7578"/><path d="M15,600.3516 L1254.5,600.3516 L1254.5,649.4219 A10,10 0 0 1 1244.5,659.4219 L25,659.4219 A10,10 0 0 1 15,649.4219 L15,600.3516 " fill="#FFFFFF" style="stroke:none;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="47" x2="47" y1="82.2969" y2="676.4219"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="136" x2="136" y1="82.2969" y2="676.4219"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="307.5" x2="307.5" y1="82.2969" y2="676.4219"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="455.5" x2="455.5" y1="82.2969" y2="676.4219"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="590.5" x2="590.5" y1="82.2969" y2="676.4219"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="712.5" x2="712.5" y1="82.2969" y2="676.4219"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="812.5" x2="812.5" y1="82.2969" y2="676.4219"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="888.5" x2="888.5" y1="82.2969" y2="676.4219"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="963.5" x2="963.5" y1="82.2969" y2="676.4219"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1061.5" x2="1061.5" y1="82.2969" y2="676.4219"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1184.5" x2="1184.5" y1="82.2969" y2="676.4219"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="25" y="78.9951">Client</text><ellipse cx="47.5" cy="14" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M47.5,22 L47.5,49 M34.5,30 L60.5,30 M47.5,49 L34.5,64 M47.5,49 L60.5,64 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="25" y="688.417">Client</text><ellipse cx="47.5" cy="700.7188" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M47.5,708.7188 L47.5,735.7188 M34.5,716.7188 L60.5,716.7188 M47.5,735.7188 L34.5,750.7188 M47.5,735.7188 L60.5,750.7188 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="93" x="90" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="79" x="97" y="70.9951">UserRouter</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="93" x="90" y="675.4219"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="79" x="97" y="695.417">UserRouter</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="124" x="245.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="110" x="252.5" y="70.9951">AuthMiddleware</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="124" x="245.5" y="675.4219"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="110" x="252.5" y="695.417">AuthMiddleware</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="113" x="399.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="406.5" y="70.9951">UserController</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="113" x="399.5" y="675.4219"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="406.5" y="695.417">UserController</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="96" x="542.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="82" x="549.5" y="70.9951">UserService</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="96" x="542.5" y="675.4219"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="82" x="549.5" y="695.417">UserService</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="88" x="668.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="74" x="675.5" y="70.9951">UserModel</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="88" x="668.5" y="675.4219"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="74" x="675.5" y="695.417">UserModel</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="53" x="786.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="793.5" y="70.9951">Redis</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="53" x="786.5" y="675.4219"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="793.5" y="695.417">Redis</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="39" x="869.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="25" x="876.5" y="70.9951">JWT</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="39" x="869.5" y="675.4219"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="25" x="876.5" y="695.417">JWT</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="50" x="938.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="36" x="945.5" y="70.9951">Email</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="50" x="938.5" y="675.4219"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="36" x="945.5" y="695.417">Email</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="86" x="1018.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="1025.5" y="70.9951">Cloudinary</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="86" x="1018.5" y="675.4219"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="1025.5" y="695.417">Cloudinary</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="100" x="1134.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="1141.5" y="70.9951">ErrorHandler</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="100" x="1134.5" y="675.4219"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="1141.5" y="695.417">ErrorHandler</text><rect fill="#FFFFFF" height="3" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.0;" width="1259.5" x="5" y="112.8633"/><line style="stroke:#000000;stroke-width:0.5;" x1="5" x2="1264.5" y1="112.8633" y2="112.8633"/><line style="stroke:#000000;stroke-width:0.5;" x1="5" x2="1264.5" y1="115.8633" y2="115.8633"/><rect fill="#FFFFFF" height="23.1328" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="247" x="511.25" y="102.2969"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="228" x="517.25" y="118.3638">Authorization Middleware Flow</text><polygon fill="#000000" points="295.5,152.5625,305.5,156.5625,295.5,160.5625,299.5,156.5625" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="136.5" x2="301.5" y1="156.5625" y2="156.5625"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="147" x="143.5" y="151.4966">authorizeRoles(...roles)</text><line style="stroke:#000000;stroke-width:2.0;" x1="307.5" x2="349.5" y1="231.0938" y2="231.0938"/><line style="stroke:#000000;stroke-width:2.0;" x1="349.5" x2="349.5" y1="231.0938" y2="244.0938"/><line style="stroke:#000000;stroke-width:2.0;" x1="308.5" x2="349.5" y1="244.0938" y2="244.0938"/><polygon fill="#000000" points="318.5,240.0938,308.5,244.0938,318.5,248.0938,314.5,244.0938" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="45" x="314.5" y="180.6294">extract</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="28" x="314.5" y="195.7622">user</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="30" x="314.5" y="210.895">from</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="53" x="314.5" y="226.0278">req.user</text><line style="stroke:#000000;stroke-width:2.0;" x1="307.5" x2="349.5" y1="303.4922" y2="303.4922"/><line style="stroke:#000000;stroke-width:2.0;" x1="349.5" x2="349.5" y1="303.4922" y2="316.4922"/><line style="stroke:#000000;stroke-width:2.0;" x1="308.5" x2="349.5" y1="316.4922" y2="316.4922"/><polygon fill="#000000" points="318.5,312.4922,308.5,316.4922,318.5,320.4922,314.5,316.4922" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="35" x="314.5" y="268.1606">const</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="39" x="314.5" y="283.2935">role =</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="63" x="314.5" y="298.4263">user?.role</text><line style="stroke:#000000;stroke-width:2.0;" x1="307.5" x2="349.5" y1="360.7578" y2="360.7578"/><line style="stroke:#000000;stroke-width:2.0;" x1="349.5" x2="349.5" y1="360.7578" y2="373.7578"/><line style="stroke:#000000;stroke-width:2.0;" x1="308.5" x2="349.5" y1="373.7578" y2="373.7578"/><polygon fill="#000000" points="318.5,369.7578,308.5,373.7578,318.5,377.7578,314.5,373.7578" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="48" x="314.5" y="340.5591">check if</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="121" x="314.5" y="355.6919">roles.includes(role)</text><path d="M25,388.7578 L79,388.7578 L79,395.8906 L69,405.8906 L15,405.8906 L15,398.7578 A10,10 0 0 1 25,388.7578 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="270.6641" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="1239.5" x="15" y="388.7578"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="30" y="401.8247">alt</text><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="136" x="94" y="400.9683">[Role not authorized]</text><polygon fill="#000000" points="1172.5,544.0859,1182.5,548.0859,1172.5,552.0859,1176.5,548.0859" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="307.5" x2="1178.5" y1="548.0859" y2="548.0859"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="38" x="314.5" y="421.9575">`Role:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="48" x="314.5" y="437.0903">${role}</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="35" x="314.5" y="452.2231">is not</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="47" x="314.5" y="467.356">allowed</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="13" x="314.5" y="482.4888">to</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="44" x="314.5" y="497.6216">access</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="23" x="314.5" y="512.7544">this</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="67" x="314.5" y="527.8872">resource`,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="24" x="314.5" y="543.02">403</text><polygon fill="#000000" points="58.5,588.3516,48.5,592.3516,58.5,596.3516,54.5,592.3516" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="52.5" x2="1183.5" y1="592.3516" y2="592.3516"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="24" x="64.5" y="572.1528">403</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="63" x="64.5" y="587.2856">Forbidden</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="15" x2="1254.5" y1="601.3516" y2="601.3516"/><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="111" x="20" y="611.562">[Role authorized]</text><polygon fill="#000000" points="147.5,647.4219,137.5,651.4219,147.5,655.4219,143.5,651.4219" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="141.5" x2="306.5" y1="651.4219" y2="651.4219"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="47" x="153.5" y="631.2231">next() -</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="55" x="153.5" y="646.356">continue</text><!--MD5=[bf157e3084d99b0bf4e16858131b6ba4]
+@startuml
+!theme plain
+skinparam backgroundColor #FFFFFF
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 20
+skinparam maxmessagesize 60
+
+actor Client
+participant "UserRouter" as Router
+participant "AuthMiddleware" as Auth
+participant "UserController" as Controller
+participant "UserService" as Service
+participant "UserModel" as Model
+participant "Redis" as Redis
+participant "JWT" as JWT
+participant "Email" as Email
+participant "Cloudinary" as Cloud
+participant "ErrorHandler" as Error
+
+
+== Authorization Middleware Flow ==
+Router -> Auth: authorizeRoles(...roles)
+Auth -> Auth: extract user from req.user
+Auth -> Auth: const role = user?.role
+Auth -> Auth: check if roles.includes(role)
+
+alt Role not authorized
+    Auth -> Error: `Role: ${role} is not allowed\nto access this resource`, 403
+    Error - -> Client: 403 Forbidden
+else Role authorized
+    Auth - -> Router: next() - continue
+end
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor white
+    FontColor black
+    FontName Verdana
+    HyperLinkColor blue
+    LineColor black
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor black
+skinparam BackgroundColor white
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor black
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor black
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor black
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor white
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor black
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor black
+  FontName Verdana
+}
+skinparam Header {
+  FontColor black
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color blue
+}
+skinparam IconPackage {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPrivate {
+  Color black
+  BackgroundColor white
+}
+skinparam IconProtected {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPublic {
+  Color black
+  BackgroundColor white
+}
+skinparam Note {
+  FontColor black
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor black
+}
+skinparam Package {
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeA {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeC {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeE {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeI {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeN {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam UseCaseStereoType {
+  FontColor black
+  FontName Verdana
+}
+skinparam backgroundColor #FFFFFF
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 20
+skinparam maxmessagesize 60
+
+actor Client
+participant "UserRouter" as Router
+participant "AuthMiddleware" as Auth
+participant "UserController" as Controller
+participant "UserService" as Service
+participant "UserModel" as Model
+participant "Redis" as Redis
+participant "JWT" as JWT
+participant "Email" as Email
+participant "Cloudinary" as Cloud
+participant "ErrorHandler" as Error
+
+
+== Authorization Middleware Flow ==
+Router -> Auth: authorizeRoles(...roles)
+Auth -> Auth: extract user from req.user
+Auth -> Auth: const role = user?.role
+Auth -> Auth: check if roles.includes(role)
+
+alt Role not authorized
+    Auth -> Error: `Role: ${role} is not allowed\nto access this resource`, 403
+    Error - -> Client: 403 Forbidden
+else Role authorized
+    Auth - -> Router: next() - continue
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

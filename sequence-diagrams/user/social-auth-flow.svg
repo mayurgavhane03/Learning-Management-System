@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1009px" preserveAspectRatio="none" style="width:1226px;height:1009px;background:#FFFFFF;" version="1.1" viewBox="0 0 1226 1009" width="1226px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="323.5313" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="409.5" x="337" y="290.3594"/><path d="M337,409.0234 L746.5,409.0234 L746.5,603.8906 A10,10 0 0 1 736.5,613.8906 L347,613.8906 A10,10 0 0 1 337,603.8906 L337,409.0234 " fill="#FFFFFF" style="stroke:none;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="32" x2="32" y1="82.2969" y2="927.8828"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="126" x2="126" y1="82.2969" y2="927.8828"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="265" x2="265" y1="82.2969" y2="927.8828"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="413" x2="413" y1="82.2969" y2="927.8828"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="560.5" x2="560.5" y1="82.2969" y2="927.8828"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="682.5" x2="682.5" y1="82.2969" y2="927.8828"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="782.5" x2="782.5" y1="82.2969" y2="927.8828"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="858.5" x2="858.5" y1="82.2969" y2="927.8828"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="933.5" x2="933.5" y1="82.2969" y2="927.8828"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1031.5" x2="1031.5" y1="82.2969" y2="927.8828"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1154.5" x2="1154.5" y1="82.2969" y2="927.8828"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="10" y="78.9951">Client</text><ellipse cx="32.5" cy="14" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M32.5,22 L32.5,49 M19.5,30 L45.5,30 M32.5,49 L19.5,64 M32.5,49 L45.5,64 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="10" y="939.8779">Client</text><ellipse cx="32.5" cy="952.1797" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M32.5,960.1797 L32.5,987.1797 M19.5,968.1797 L45.5,968.1797 M32.5,987.1797 L19.5,1002.1797 M32.5,987.1797 L45.5,1002.1797 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="93" x="80" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="79" x="87" y="70.9951">UserRouter</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="93" x="80" y="926.8828"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="79" x="87" y="946.8779">UserRouter</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="124" x="203" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="110" x="210" y="70.9951">AuthMiddleware</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="124" x="203" y="926.8828"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="110" x="210" y="946.8779">AuthMiddleware</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="113" x="357" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="364" y="70.9951">UserController</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="113" x="357" y="926.8828"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="364" y="946.8779">UserController</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="96" x="512.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="82" x="519.5" y="70.9951">UserService</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="96" x="512.5" y="926.8828"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="82" x="519.5" y="946.8779">UserService</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="88" x="638.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="74" x="645.5" y="70.9951">UserModel</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="88" x="638.5" y="926.8828"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="74" x="645.5" y="946.8779">UserModel</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="53" x="756.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="763.5" y="70.9951">Redis</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="53" x="756.5" y="926.8828"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="763.5" y="946.8779">Redis</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="39" x="839.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="25" x="846.5" y="70.9951">JWT</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="39" x="839.5" y="926.8828"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="25" x="846.5" y="946.8779">JWT</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="50" x="908.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="36" x="915.5" y="70.9951">Email</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="50" x="908.5" y="926.8828"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="36" x="915.5" y="946.8779">Email</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="86" x="988.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="995.5" y="70.9951">Cloudinary</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="86" x="988.5" y="926.8828"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="995.5" y="946.8779">Cloudinary</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="100" x="1104.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="1111.5" y="70.9951">ErrorHandler</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="100" x="1104.5" y="926.8828"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="1111.5" y="946.8779">ErrorHandler</text><rect fill="#FFFFFF" height="3" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.0;" width="1214.5" x="5" y="112.8633"/><line style="stroke:#000000;stroke-width:0.5;" x1="5" x2="1219.5" y1="112.8633" y2="112.8633"/><line style="stroke:#000000;stroke-width:0.5;" x1="5" x2="1219.5" y1="115.8633" y2="115.8633"/><rect fill="#FFFFFF" height="23.1328" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="140" x="542.25" y="102.2969"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="121" x="548.25" y="118.3638">Social Auth Flow</text><polygon fill="#000000" points="114.5,213.0938,124.5,217.0938,114.5,221.0938,118.5,217.0938" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="32.5" x2="120.5" y1="217.0938" y2="217.0938"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="34" x="39.5" y="151.4966">POST</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="70" x="39.5" y="166.6294">/socialAuth</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="47" x="39.5" y="181.7622">{email,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="41" x="39.5" y="196.895">name,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="49" x="39.5" y="212.0278">avatar}</text><polygon fill="#000000" points="401.5,242.2266,411.5,246.2266,401.5,250.2266,405.5,246.2266" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="126.5" x2="407.5" y1="246.2266" y2="246.2266"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="76" x="133.5" y="241.1606">socialAuth()</text><polygon fill="#000000" points="670.5,271.3594,680.5,275.3594,670.5,279.3594,674.5,275.3594" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="413.5" x2="676.5" y1="275.3594" y2="275.3594"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="110" x="420.5" y="270.2935">findOne({email})</text><path d="M347,290.3594 L401,290.3594 L401,297.4922 L391,307.4922 L337,307.4922 L337,300.3594 A10,10 0 0 1 347,290.3594 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="323.5313" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="409.5" x="337" y="290.3594"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="352" y="303.4263">alt</text><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="81" x="416" y="302.5698">[User exists]</text><polygon fill="#000000" points="424.5,339.7578,414.5,343.7578,424.5,347.7578,420.5,343.7578" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="418.5" x2="681.5" y1="343.7578" y2="343.7578"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="49" x="430.5" y="323.5591">existing</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="28" x="430.5" y="338.6919">user</text><line style="stroke:#000000;stroke-width:2.0;" x1="413.5" x2="455.5" y1="388.0234" y2="388.0234"/><line style="stroke:#000000;stroke-width:2.0;" x1="455.5" x2="455.5" y1="388.0234" y2="401.0234"/><line style="stroke:#000000;stroke-width:2.0;" x1="414.5" x2="455.5" y1="401.0234" y2="401.0234"/><polygon fill="#000000" points="424.5,397.0234,414.5,401.0234,424.5,405.0234,420.5,401.0234" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="106" x="420.5" y="367.8247">sendToken(user,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="57" x="420.5" y="382.9575">200, res)</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="337" x2="746.5" y1="410.0234" y2="410.0234"/><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="125" x="342" y="420.2339">[User doesn't exist]</text><polygon fill="#000000" points="424.5,440.9609,414.5,444.9609,424.5,448.9609,420.5,444.9609" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="418.5" x2="681.5" y1="444.9609" y2="444.9609"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="22" x="430.5" y="439.895">null</text><polygon fill="#000000" points="670.5,500.3594,680.5,504.3594,670.5,508.3594,674.5,504.3594" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="413.5" x2="676.5" y1="504.3594" y2="504.3594"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="93" x="420.5" y="469.0278">create({email,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="41" x="420.5" y="484.1606">name,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="54" x="420.5" y="499.2935">avatar})</text><polygon fill="#000000" points="424.5,544.625,414.5,548.625,424.5,552.625,420.5,548.625" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="418.5" x2="681.5" y1="548.625" y2="548.625"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="57" x="430.5" y="528.4263">new user</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="49" x="430.5" y="543.5591">created</text><line style="stroke:#000000;stroke-width:2.0;" x1="413.5" x2="455.5" y1="592.8906" y2="592.8906"/><line style="stroke:#000000;stroke-width:2.0;" x1="455.5" x2="455.5" y1="592.8906" y2="605.8906"/><line style="stroke:#000000;stroke-width:2.0;" x1="414.5" x2="455.5" y1="605.8906" y2="605.8906"/><polygon fill="#000000" points="424.5,601.8906,414.5,605.8906,424.5,609.8906,420.5,605.8906" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="133" x="420.5" y="572.6919">sendToken(newUser,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="57" x="420.5" y="587.8247">200, res)</text><polygon fill="#000000" points="670.5,668.2891,680.5,672.2891,670.5,676.2891,674.5,672.2891" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="413.5" x2="676.5" y1="672.2891" y2="672.2891"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="121" x="420.5" y="636.9575">SignAccessToken()</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="11" x="420.5" y="652.0903">&amp;</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="124" x="420.5" y="667.2231">SignRefreshToken()</text><polygon fill="#000000" points="424.5,697.4219,414.5,701.4219,424.5,705.4219,420.5,701.4219" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="418.5" x2="681.5" y1="701.4219" y2="701.4219"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="43" x="430.5" y="696.356">tokens</text><polygon fill="#000000" points="771,771.9531,781,775.9531,771,779.9531,775,775.9531" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="413.5" x2="777" y1="775.9531" y2="775.9531"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="79" x="420.5" y="725.4888">set(user._id,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="128" x="420.5" y="740.6216">JSON.stringify(user),</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="30" x="420.5" y="755.7544">"EX",</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="53" x="420.5" y="770.8872">604800)</text><polygon fill="#000000" points="424.5,816.2188,414.5,820.2188,424.5,824.2188,420.5,820.2188" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="418.5" x2="782" y1="820.2188" y2="820.2188"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="28" x="430.5" y="800.02">user</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="46" x="430.5" y="815.1528">cached</text><polygon fill="#000000" points="43.5,905.8828,33.5,909.8828,43.5,913.8828,39.5,909.8828" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="37.5" x2="412.5" y1="909.8828" y2="909.8828"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="24" x="49.5" y="844.2856">200</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="63" x="49.5" y="859.4185">{success,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="51" x="49.5" y="874.5513">user} +</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="22" x="49.5" y="889.6841">Set</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="50" x="49.5" y="904.8169">Cookies</text><!--MD5=[e69ad52f29b8eaf234d205992750e483]
+@startuml
+!theme plain
+skinparam backgroundColor #FFFFFF
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 20
+skinparam maxmessagesize 60
+
+actor Client
+participant "UserRouter" as Router
+participant "AuthMiddleware" as Auth
+participant "UserController" as Controller
+participant "UserService" as Service
+participant "UserModel" as Model
+participant "Redis" as Redis
+participant "JWT" as JWT
+participant "Email" as Email
+participant "Cloudinary" as Cloud
+participant "ErrorHandler" as Error
+
+
+ 
+
+== Social Auth Flow ==
+Client -> Router: POST /socialAuth {email, name, avatar}
+Router -> Controller: socialAuth()
+Controller -> Model: findOne({email})
+
+alt User exists
+    Model - -> Controller: existing user
+    Controller -> Controller: sendToken(user, 200, res)
+else User doesn't exist
+    Model - -> Controller: null
+    Controller -> Model: create({email, name, avatar})
+    Model - -> Controller: new user created
+    Controller -> Controller: sendToken(newUser, 200, res)
+end
+
+Controller -> Model: SignAccessToken() & SignRefreshToken()
+Model - -> Controller: tokens
+Controller -> Redis: set(user._id, JSON.stringify(user), "EX", 604800)
+Redis - -> Controller: user cached
+Controller - -> Client: 200 {success, user} + Set Cookies
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor white
+    FontColor black
+    FontName Verdana
+    HyperLinkColor blue
+    LineColor black
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor black
+skinparam BackgroundColor white
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor black
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor black
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor black
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor white
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor black
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor black
+  FontName Verdana
+}
+skinparam Header {
+  FontColor black
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color blue
+}
+skinparam IconPackage {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPrivate {
+  Color black
+  BackgroundColor white
+}
+skinparam IconProtected {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPublic {
+  Color black
+  BackgroundColor white
+}
+skinparam Note {
+  FontColor black
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor black
+}
+skinparam Package {
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeA {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeC {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeE {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeI {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeN {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam UseCaseStereoType {
+  FontColor black
+  FontName Verdana
+}
+skinparam backgroundColor #FFFFFF
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 20
+skinparam maxmessagesize 60
+
+actor Client
+participant "UserRouter" as Router
+participant "AuthMiddleware" as Auth
+participant "UserController" as Controller
+participant "UserService" as Service
+participant "UserModel" as Model
+participant "Redis" as Redis
+participant "JWT" as JWT
+participant "Email" as Email
+participant "Cloudinary" as Cloud
+participant "ErrorHandler" as Error
+
+
+ 
+
+== Social Auth Flow ==
+Client -> Router: POST /socialAuth {email, name, avatar}
+Router -> Controller: socialAuth()
+Controller -> Model: findOne({email})
+
+alt User exists
+    Model - -> Controller: existing user
+    Controller -> Controller: sendToken(user, 200, res)
+else User doesn't exist
+    Model - -> Controller: null
+    Controller -> Model: create({email, name, avatar})
+    Model - -> Controller: new user created
+    Controller -> Controller: sendToken(newUser, 200, res)
+end
+
+Controller -> Model: SignAccessToken() & SignRefreshToken()
+Model - -> Controller: tokens
+Controller -> Redis: set(user._id, JSON.stringify(user), "EX", 604800)
+Redis - -> Controller: user cached
+Controller - -> Client: 200 {success, user} + Set Cookies
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

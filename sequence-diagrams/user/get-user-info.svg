@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="877px" preserveAspectRatio="none" style="width:1252px;height:877px;background:#FFFFFF;" version="1.1" viewBox="0 0 1252 877" width="1252px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="272.2656" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="840" x="15" y="507.4219"/><path d="M15,685.4844 L855,685.4844 L855,769.6875 A10,10 0 0 1 845,779.6875 L25,779.6875 A10,10 0 0 1 15,769.6875 L15,685.4844 " fill="#FFFFFF" style="stroke:none;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="47" x2="47" y1="82.2969" y2="796.6875"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="136" x2="136" y1="82.2969" y2="796.6875"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="275" x2="275" y1="82.2969" y2="796.6875"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="423" x2="423" y1="82.2969" y2="796.6875"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="558" x2="558" y1="82.2969" y2="796.6875"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="708" x2="708" y1="82.2969" y2="796.6875"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="808" x2="808" y1="82.2969" y2="796.6875"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="884" x2="884" y1="82.2969" y2="796.6875"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="959" x2="959" y1="82.2969" y2="796.6875"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1057" x2="1057" y1="82.2969" y2="796.6875"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1180" x2="1180" y1="82.2969" y2="796.6875"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="25" y="78.9951">Client</text><ellipse cx="47.5" cy="14" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M47.5,22 L47.5,49 M34.5,30 L60.5,30 M47.5,49 L34.5,64 M47.5,49 L60.5,64 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="25" y="808.6826">Client</text><ellipse cx="47.5" cy="820.9844" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M47.5,828.9844 L47.5,855.9844 M34.5,836.9844 L60.5,836.9844 M47.5,855.9844 L34.5,870.9844 M47.5,855.9844 L60.5,870.9844 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="93" x="90" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="79" x="97" y="70.9951">UserRouter</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="93" x="90" y="795.6875"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="79" x="97" y="815.6826">UserRouter</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="124" x="213" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="110" x="220" y="70.9951">AuthMiddleware</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="124" x="213" y="795.6875"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="110" x="220" y="815.6826">AuthMiddleware</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="113" x="367" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="374" y="70.9951">UserController</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="113" x="367" y="795.6875"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="374" y="815.6826">UserController</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="96" x="510" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="82" x="517" y="70.9951">UserService</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="96" x="510" y="795.6875"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="82" x="517" y="815.6826">UserService</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="88" x="664" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="74" x="671" y="70.9951">UserModel</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="88" x="664" y="795.6875"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="74" x="671" y="815.6826">UserModel</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="53" x="782" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="789" y="70.9951">Redis</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="53" x="782" y="795.6875"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="789" y="815.6826">Redis</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="39" x="865" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="25" x="872" y="70.9951">JWT</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="39" x="865" y="795.6875"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="25" x="872" y="815.6826">JWT</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="50" x="934" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="36" x="941" y="70.9951">Email</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="50" x="934" y="795.6875"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="36" x="941" y="815.6826">Email</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="86" x="1014" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="1021" y="70.9951">Cloudinary</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="86" x="1014" y="795.6875"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="1021" y="815.6826">Cloudinary</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="100" x="1130" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="1137" y="70.9951">ErrorHandler</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="100" x="1130" y="795.6875"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="1137" y="815.6826">ErrorHandler</text><rect fill="#FFFFFF" height="3" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.0;" width="1240" x="5" y="112.8633"/><line style="stroke:#000000;stroke-width:0.5;" x1="5" x2="1245" y1="112.8633" y2="112.8633"/><line style="stroke:#000000;stroke-width:0.5;" x1="5" x2="1245" y1="115.8633" y2="115.8633"/><rect fill="#FFFFFF" height="23.1328" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="155" x="547.5" y="102.2969"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="136" x="553.5" y="118.3638">Get User Info Flow</text><polygon fill="#000000" points="124.5,152.5625,134.5,156.5625,124.5,160.5625,128.5,156.5625" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="47.5" x2="130.5" y1="156.5625" y2="156.5625"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="54" x="54.5" y="151.4966">GET /me</text><polygon fill="#000000" points="263,181.6953,273,185.6953,263,189.6953,267,185.6953" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="136.5" x2="269" y1="185.6953" y2="185.6953"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="110" x="143.5" y="180.6294">isAuthenticated()</text><polygon fill="#000000" points="147.5,225.9609,137.5,229.9609,147.5,233.9609,143.5,229.9609" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="141.5" x2="274" y1="229.9609" y2="229.9609"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="28" x="153.5" y="209.7622">user</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="89" x="153.5" y="224.895">authenticated</text><polygon fill="#000000" points="411.5,255.0938,421.5,259.0938,411.5,263.0938,415.5,259.0938" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="136.5" x2="417.5" y1="259.0938" y2="259.0938"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="84" x="143.5" y="254.0278">getUserInfo()</text><line style="stroke:#000000;stroke-width:2.0;" x1="423.5" x2="465.5" y1="333.625" y2="333.625"/><line style="stroke:#000000;stroke-width:2.0;" x1="465.5" x2="465.5" y1="333.625" y2="346.625"/><line style="stroke:#000000;stroke-width:2.0;" x1="424.5" x2="465.5" y1="346.625" y2="346.625"/><polygon fill="#000000" points="434.5,342.625,424.5,346.625,434.5,350.625,430.5,346.625" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="45" x="430.5" y="283.1606">extract</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="28" x="430.5" y="298.2935">user</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="30" x="430.5" y="313.4263">from</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="53" x="430.5" y="328.5591">req.user</text><line style="stroke:#000000;stroke-width:2.0;" x1="423.5" x2="465.5" y1="406.0234" y2="406.0234"/><line style="stroke:#000000;stroke-width:2.0;" x1="465.5" x2="465.5" y1="406.0234" y2="419.0234"/><line style="stroke:#000000;stroke-width:2.0;" x1="424.5" x2="465.5" y1="419.0234" y2="419.0234"/><polygon fill="#000000" points="434.5,415.0234,424.5,419.0234,434.5,423.0234,430.5,419.0234" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="50" x="430.5" y="370.6919">const id</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="11" x="430.5" y="385.8247">=</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="57" x="430.5" y="400.9575">user?._id</text><polygon fill="#000000" points="546,459.2891,556,463.2891,546,467.2891,550,463.2891" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="423.5" x2="552" y1="463.2891" y2="463.2891"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="82" x="430.5" y="443.0903">getUserId(id,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="25" x="430.5" y="458.2231">res)</text><polygon fill="#000000" points="796.5,488.4219,806.5,492.4219,796.5,496.4219,800.5,492.4219" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="558" x2="802.5" y1="492.4219" y2="492.4219"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="42" x="565" y="487.356">get(id)</text><path d="M25,507.4219 L79,507.4219 L79,514.5547 L69,524.5547 L15,524.5547 L15,517.4219 A10,10 0 0 1 25,507.4219 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="272.2656" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="840" x="15" y="507.4219"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="30" y="520.4888">alt</text><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="138" x="94" y="519.6323">[User found in cache]</text><polygon fill="#000000" points="569,556.8203,559,560.8203,569,564.8203,565,560.8203" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="563" x2="807.5" y1="560.8203" y2="560.8203"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="28" x="575" y="540.6216">user</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="32" x="575" y="555.7544">JSON</text><line style="stroke:#000000;stroke-width:2.0;" x1="558" x2="600" y1="589.9531" y2="589.9531"/><line style="stroke:#000000;stroke-width:2.0;" x1="600" x2="600" y1="589.9531" y2="602.9531"/><line style="stroke:#000000;stroke-width:2.0;" x1="559" x2="600" y1="602.9531" y2="602.9531"/><polygon fill="#000000" points="569,598.9531,559,602.9531,569,606.9531,565,602.9531" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="136" x="565" y="584.8872">JSON.parse(userJson)</text><polygon fill="#000000" points="58.5,673.4844,48.5,677.4844,58.5,681.4844,54.5,677.4844" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="52.5" x2="557" y1="677.4844" y2="677.4844"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="24" x="64.5" y="627.02">201</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="63" x="64.5" y="642.1528">{success:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="30" x="64.5" y="657.2856">true,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="36" x="64.5" y="672.4185">user}</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="15" x2="855" y1="686.4844" y2="686.4844"/><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="122" x="20" y="696.6948">[User not in cache]</text><polygon fill="#000000" points="569,717.4219,559,721.4219,569,725.4219,565,721.4219" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="563" x2="807.5" y1="721.4219" y2="721.4219"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="22" x="575" y="716.356">null</text><path d="M446,744.4219 L446,764.4219 A10,10 0 0 0 456,774.4219 L660,774.4219 A10,10 0 0 0 670,764.4219 L670,744.4219 L660,734.4219 L456,734.4219 A10,10 0 0 0 446,744.4219 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M660,734.4219 L660,739.4219 A5,5 0 0 0 665,744.4219 L670,744.4219 L660,734.4219 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="113" x="452" y="751.4888">No response sent</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="203" x="452" y="766.6216">(potential issue in original code)</text><!--MD5=[18d5c347ea031b48003a7eeca94273c9]
+@startuml
+!theme plain
+skinparam backgroundColor #FFFFFF
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 20
+skinparam maxmessagesize 60
+
+actor Client
+participant "UserRouter" as Router
+participant "AuthMiddleware" as Auth
+participant "UserController" as Controller
+participant "UserService" as Service
+participant "UserModel" as Model
+participant "Redis" as Redis
+participant "JWT" as JWT
+participant "Email" as Email
+participant "Cloudinary" as Cloud
+participant "ErrorHandler" as Error
+
+
+ 
+== Get User Info Flow ==
+Client -> Router: GET /me
+Router -> Auth: isAuthenticated()
+Auth - -> Router: user authenticated
+Router -> Controller: getUserInfo()
+Controller -> Controller: extract user from req.user
+Controller -> Controller: const id = user?._id
+Controller -> Service: getUserId(id, res)
+Service -> Redis: get(id)
+
+alt User found in cache
+    Redis - -> Service: user JSON
+    Service -> Service: JSON.parse(userJson)
+    Service - -> Client: 201 {success: true, user}
+else User not in cache
+    Redis - -> Service: null
+    note over Service: No response sent\n(potential issue in original code)
+end
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor white
+    FontColor black
+    FontName Verdana
+    HyperLinkColor blue
+    LineColor black
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor black
+skinparam BackgroundColor white
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor black
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor black
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor black
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor white
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor black
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor black
+  FontName Verdana
+}
+skinparam Header {
+  FontColor black
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color blue
+}
+skinparam IconPackage {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPrivate {
+  Color black
+  BackgroundColor white
+}
+skinparam IconProtected {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPublic {
+  Color black
+  BackgroundColor white
+}
+skinparam Note {
+  FontColor black
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor black
+}
+skinparam Package {
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeA {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeC {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeE {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeI {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeN {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam UseCaseStereoType {
+  FontColor black
+  FontName Verdana
+}
+skinparam backgroundColor #FFFFFF
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 20
+skinparam maxmessagesize 60
+
+actor Client
+participant "UserRouter" as Router
+participant "AuthMiddleware" as Auth
+participant "UserController" as Controller
+participant "UserService" as Service
+participant "UserModel" as Model
+participant "Redis" as Redis
+participant "JWT" as JWT
+participant "Email" as Email
+participant "Cloudinary" as Cloud
+participant "ErrorHandler" as Error
+
+
+ 
+== Get User Info Flow ==
+Client -> Router: GET /me
+Router -> Auth: isAuthenticated()
+Auth - -> Router: user authenticated
+Router -> Controller: getUserInfo()
+Controller -> Controller: extract user from req.user
+Controller -> Controller: const id = user?._id
+Controller -> Service: getUserId(id, res)
+Service -> Redis: get(id)
+
+alt User found in cache
+    Redis - -> Service: user JSON
+    Service -> Service: JSON.parse(userJson)
+    Service - -> Client: 201 {success: true, user}
+else User not in cache
+    Redis - -> Service: null
+    note over Service: No response sent\n(potential issue in original code)
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

@@ -1,0 +1,400 @@
+@startuml UserAuthenticationSystemComplete
+
+!theme plain
+skinparam backgroundColor #FFFFFF
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 20
+skinparam maxmessagesize 60
+
+actor Client
+participant "UserRouter" as Router
+participant "AuthMiddleware" as Auth
+participant "UserController" as Controller
+participant "UserService" as Service
+participant "UserModel" as Model
+participant "Redis" as Redis
+participant "JWT" as JWT
+participant "Email" as Email
+participant "Cloudinary" as Cloud
+participant "ErrorHandler" as Error
+
+== User Registration Flow ==
+Client -> Router: POST /registration\n{name, email, password}
+Router -> Controller: registrationUser()
+Controller -> Model: findOne({email})
+
+alt Email already exists
+    Model --> Controller: user exists
+    Controller -> Error: "Email already exist", 400
+    Error --> Client: 400 Error Response
+else Email available
+    Model --> Controller: null
+    Controller -> Controller: createActivationToken(user)
+    note over Controller: Generate 4-digit code &\nJWT token (5m expiry)
+    Controller -> Controller: Math.floor(1000 + Math.random() * 9000)
+    Controller -> JWT: sign({user, activationCode},\nACTIVATION_SECRET, 5m)
+    JWT --> Controller: activation token
+    Controller -> Email: renderFile("activation-mail.ejs", data)
+    Email --> Controller: HTML template rendered
+    Controller -> Email: sendMail({email, subject, template, data})
+    
+    alt Email send success
+        Email --> Controller: email sent successfully
+        Controller --> Client: 201 {success: true, message, activationToken}
+    else Email send failure
+        Email --> Controller: email error
+        Controller -> Error: error.message, 400
+        Error --> Client: 400 Error Response
+    end
+end
+
+== User Activation Flow ==
+Client -> Router: POST /activate-user\n{activation_token, activation_code}
+Router -> Controller: activateUser()
+Controller -> JWT: verify(activation_token, ACTIVATION_SECRET)
+
+alt Invalid or expired token
+    JWT --> Controller: verification failed
+    Controller -> Error: error.message, 400
+    Error --> Client: 400 Error Response
+else Valid token
+    JWT --> Controller: {user: IUser, activationCode: string}
+    Controller -> Controller: compare codes
+    
+    alt Invalid activation code
+        Controller -> Error: "Invalid activation Code", 400
+        Error --> Client: 400 Error Response
+    else Valid activation code
+        Controller -> Model: findOne({email}) - check if user exists
+        
+        alt User already exists
+            Model --> Controller: existing user
+            Controller -> Error: "Email already Exist", 400
+            Error --> Client: 400 Error Response
+        else User doesn't exist
+            Model --> Controller: null
+            Controller -> Model: create({name, email, password})
+            note over Model: Password hashed in pre-save hook
+            Model -> Model: bcrypt.hash(password, 10)
+            Model --> Controller: user created & saved
+            Controller --> Client: 201 {success: true}
+        end
+    end
+end
+
+== User Login Flow ==
+Client -> Router: POST /login {email, password}
+Router -> Controller: loginUser()
+
+alt Missing credentials
+    Controller -> Error: "Please enter email and password", 400
+    Error --> Client: 400 Error Response
+else Valid input
+    Controller -> Model: findOne({email}).select("+password")
+    
+    alt User not found
+        Model --> Controller: null
+        Controller -> Error: "Invalid email or password", 400
+        Error --> Client: 400 Error Response
+    else User found
+        Model --> Controller: user with password
+        Controller -> Model: comparePassword(password)
+        Model -> Model: bcrypt.compare(password, this.password)
+        
+        alt Password mismatch
+            Model --> Controller: false
+            Controller -> Error: "Invalid email or password", 400
+            Error --> Client: 400 Error Response
+        else Password match
+            Model --> Controller: true
+            Controller -> Controller: sendToken(user, 200, res)
+            Controller -> Model: SignAccessToken() & SignRefreshToken()
+            Model -> JWT: sign({id: this._id}, ACCESS_TOKEN, 5m)
+            JWT --> Model: access token
+            Model -> JWT: sign({id: this._id}, REFRESH_TOKEN, 3d)
+            JWT --> Model: refresh token
+            Model --> Controller: {accessToken, refreshToken}
+            Controller -> Redis: set(user._id, JSON.stringify(user), "EX", 604800)
+            Redis --> Controller: user cached (7 days)
+            Controller --> Client: 200 {success, user} + Set Cookies
+            note over Client: Cookies: access_token, refresh_token
+        end
+    end
+end
+
+== Authentication Middleware Flow ==
+Client -> Router: Any Protected Route (with cookies)
+Router -> Auth: isAuthenticated()
+Auth -> Auth: extract access_token from cookies
+
+alt No access token
+    Auth -> Error: "Please login to access this resource", 400
+    Error --> Client: 400 Error Response
+else Access token exists
+    Auth -> JWT: decode(access_token, {complete: true})
+    
+    alt Invalid token format
+        JWT --> Auth: null
+        Auth -> Error: "access token is not valid", 400
+        Error --> Client: 400 Error Response
+    else Valid token format
+        JWT --> Auth: decoded token with exp
+        Auth -> Auth: check if token expired
+        
+        alt Token expired (decoded.exp <= Date.now()/1000)
+            Auth -> Controller: updateAccessToken(req, res, next)
+            Controller -> Controller: extract refresh_token from cookies
+            Controller -> JWT: verify(refresh_token, REFRESH_TOKEN)
+            
+            alt Invalid refresh token
+                JWT --> Controller: verification failed
+                Controller -> Error: "Could not refresh token", 400
+                Error --> Client: 400 Error Response
+            else Valid refresh token
+                JWT --> Controller: decoded refresh token
+                Controller -> Redis: get(decoded.id)
+                
+                alt No session in Redis
+                    Redis --> Controller: null
+                    Controller -> Error: "Please login for access this resources!", 400
+                    Error --> Client: 400 Error Response
+                else Session exists
+                    Redis --> Controller: user session JSON
+                    Controller -> Controller: JSON.parse(session)
+                    Controller -> JWT: sign({id: user._id}, ACCESS_TOKEN, 5m)
+                    JWT --> Controller: new access token
+                    Controller -> JWT: sign({id: user._id}, REFRESH_TOKEN, 3d)
+                    JWT --> Controller: new refresh token
+                    Controller -> Controller: req.user = user
+                    Controller -> Controller: set cookies with new tokens
+                    Controller -> Redis: set(user._id, JSON.stringify(user), "EX", 604800)
+                    Redis --> Controller: session refreshed
+                    Controller --> Auth: next() - continue
+                end
+            end
+        else Token still valid
+            Auth -> Redis: get(decoded.payload.id)
+            
+            alt No user in Redis
+                Redis --> Auth: null
+                Auth -> Error: "Please login to access this resource", 400
+                Error --> Client: 400 Error Response
+            else User found in Redis
+                Redis --> Auth: user JSON
+                Auth -> Auth: req.user = JSON.parse(user)
+                Auth --> Router: next() - continue
+            end
+        end
+    end
+end
+
+== Authorization Middleware Flow ==
+Router -> Auth: authorizeRoles(...roles)
+Auth -> Auth: extract user from req.user
+Auth -> Auth: const role = user?.role
+Auth -> Auth: check if roles.includes(role)
+
+alt Role not authorized
+    Auth -> Error: `Role: ${role} is not allowed\nto access this resource`, 403
+    Error --> Client: 403 Forbidden
+else Role authorized
+    Auth --> Router: next() - continue
+end
+
+== Get User Info Flow ==
+Client -> Router: GET /me
+Router -> Auth: isAuthenticated()
+Auth --> Router: user authenticated
+Router -> Controller: getUserInfo()
+Controller -> Controller: extract user from req.user
+Controller -> Controller: const id = user?._id
+Controller -> Service: getUserId(id, res)
+Service -> Redis: get(id)
+
+alt User found in cache
+    Redis --> Service: user JSON
+    Service -> Service: JSON.parse(userJson)
+    Service --> Client: 201 {success: true, user}
+else User not in cache
+    Redis --> Service: null
+    note over Service: No response sent\n(potential issue in original code)
+end
+
+== Social Auth Flow ==
+Client -> Router: POST /socialAuth {email, name, avatar}
+Router -> Controller: socialAuth()
+Controller -> Model: findOne({email})
+
+alt User exists
+    Model --> Controller: existing user
+    Controller -> Controller: sendToken(user, 200, res)
+else User doesn't exist
+    Model --> Controller: null
+    Controller -> Model: create({email, name, avatar})
+    Model --> Controller: new user created
+    Controller -> Controller: sendToken(newUser, 200, res)
+end
+
+Controller -> Model: SignAccessToken() & SignRefreshToken()
+Model --> Controller: tokens
+Controller -> Redis: set(user._id, JSON.stringify(user), "EX", 604800)
+Redis --> Controller: user cached
+Controller --> Client: 200 {success, user} + Set Cookies
+
+== Update User Info Flow ==
+Client -> Router: PUT /update-user-info {name, email}
+Router -> Auth: isAuthenticated()
+Auth --> Router: user authenticated
+Router -> Controller: updateUserInfo()
+Controller -> Controller: extract user from req.user
+Controller -> Model: findById(id)
+Model --> Controller: user found
+
+alt Email provided
+    Controller -> Model: findOne({email}) - check if email exists
+    
+    alt Email already exists (!isEmailExist condition in code)
+        Model --> Controller: existing user with email
+        Controller -> Error: "email is already exist", 400
+        Error --> Client: 400 Error Response
+    else Email available
+        Model --> Controller: null
+        Controller -> Controller: user.email = email
+        
+        alt Name also provided
+            Controller -> Controller: user.name = name
+        end
+        
+        Controller -> Model: save()
+        Model -> Model: pre-save hooks if password modified
+        Model --> Controller: user saved
+        Controller -> Redis: set(id, JSON.stringify(user))
+        Redis --> Controller: cache updated
+        Controller --> Client: 201 {success: true, user}
+    end
+end
+
+== Update Password Flow ==
+Client -> Router: PUT /update-user-password\n{oldPassword, newPassword}
+Router -> Auth: isAuthenticated()
+Auth --> Router: user authenticated
+Router -> Controller: updatePassword()
+
+alt Missing passwords
+    Controller -> Error: "Please enter old and new password", 400
+    Error --> Client: 400 Error Response
+else Passwords provided
+    Controller -> Controller: extract user from req.user
+    Controller -> Model: findById(id).select("+password")
+    Model --> Controller: user with password
+    
+    alt User password undefined
+        Controller -> Error: "Invalid user", 400
+        Error --> Client: 400 Error Response
+    else Valid user
+        Controller -> Model: comparePassword(oldPassword)
+        Model --> Controller: password comparison result
+        
+        alt Password mismatch
+            Controller -> Error: "Invalid old password", 400
+            Error --> Client: 400 Error Response
+        else Password match
+            Controller -> Controller: user.password = newPassword
+            Controller -> Model: save()
+            Model -> Model: bcrypt.hash(newPassword, 10) in pre-save
+            Model --> Controller: password updated
+            Controller -> Redis: set(id, JSON.stringify(user))
+            Redis --> Controller: cache updated
+            Controller --> Client: 201 {success: true, user}
+        end
+    end
+end
+
+== Update Profile Picture Flow ==
+Client -> Router: PUT /update-user-avatar {avatar}
+Router -> Auth: isAuthenticated()
+Auth --> Router: user authenticated
+Router -> Controller: updateProfilePicture()
+Controller -> Controller: extract user from req.user
+Controller -> Model: findById(userId).select("+password")
+Model --> Controller: user found
+
+alt Avatar provided and user exists
+    Controller -> Controller: check if user?.avatar?.public_id exists
+    
+    alt User has existing avatar
+        Controller -> Cloud: v2.uploader.destroy(user.avatar.public_id)
+        Cloud --> Controller: old avatar deleted
+    end
+    
+    Controller -> Cloud: v2.uploader.upload(avatar,\n{folder: "avatars", width: 150})
+    Cloud --> Controller: {public_id, secure_url}
+    Controller -> Controller: user.avatar = {public_id, url: secure_url}
+    Controller -> Model: save()
+    Model --> Controller: user updated
+    Controller -> Redis: set(userId, JSON.stringify(user))
+    Redis --> Controller: cache updated
+    Controller --> Client: 200 {success: true, user}
+end
+
+== Get All Users (Admin) Flow ==
+Client -> Router: GET /get-users
+Router -> Auth: isAuthenticated()
+Auth --> Router: user authenticated
+Router -> Auth: authorizeRoles("admin")
+Auth --> Router: admin role authorized
+Router -> Controller: getAllUsers()
+Controller -> Service: getAllUsersService(res)
+Service -> Model: find().sort({createdAt: -1})
+Model --> Service: all users sorted by creation date
+Service --> Client: 201 {success: true, users}
+
+== Update User Role (Admin) Flow ==
+Client -> Router: PUT /update-user-role {id, role}
+Router -> Auth: isAuthenticated()
+Auth --> Router: user authenticated
+Router -> Auth: authorizeRoles("admin")
+Auth --> Router: admin role authorized
+Router -> Controller: updateUserRole()
+Controller -> Controller: extract {id, role} from req.body
+Controller -> Service: updateUserRoleService(res, id, role)
+Service -> Model: findByIdAndUpdate(id, {role}, {new: true})
+Model --> Service: user with updated role
+Service --> Client: 201 {success: true, user}
+
+== Delete User (Admin) Flow ==
+Client -> Router: DELETE /delete-user/:id
+Router -> Auth: isAuthenticated()
+Auth --> Router: user authenticated
+Router -> Auth: authorizeRoles("admin")
+Auth --> Router: admin role authorized
+Router -> Controller: deleteUser()
+Controller -> Controller: extract {id} from req.params
+Controller -> Model: findById(id)
+
+alt User not found
+    Model --> Controller: null
+    Controller -> Error: "User not found", 404
+    Error --> Client: 404 Error Response
+else User found
+    Model --> Controller: user found
+    Controller -> Model: deleteOne({id})
+    Model --> Controller: user deleted from database
+    Controller -> Redis: del(id)
+    Redis --> Controller: user session cleared from cache
+    Controller --> Client: 200 {success: true,\nmessage: "User deleted successfully"}
+end
+
+== Logout Flow ==
+Client -> Router: GET /logout
+Router -> Auth: isAuthenticated()
+Auth --> Router: user authenticated
+Router -> Controller: logoutUser()
+Controller -> Controller: extract userId from req.user
+Controller -> Controller: res.cookie("access_token", "", {maxAge: 1})
+Controller -> Controller: res.cookie("refresh_token", "", {maxAge: 1})
+Controller -> Redis: del(userId)
+Redis --> Controller: user session cleared
+Controller --> Client: 200 {success: true,\nmessage: "Logged out successfully"}
+
+@enduml

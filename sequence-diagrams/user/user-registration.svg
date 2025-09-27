@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="2667px" preserveAspectRatio="none" style="width:1448px;height:2667px;background:#FFFFFF;" version="1.1" viewBox="0 0 1448 2667" width="1448px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="1028.8516" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="1396" x="25" y="290.3594"/><path d="M25,470.5547 L1421,470.5547 L1421,1309.2109 A10,10 0 0 1 1411,1319.2109 L35,1319.2109 A10,10 0 0 1 25,1309.2109 L25,470.5547 " fill="#FFFFFF" style="stroke:none;stroke-width:1.0;"/><rect fill="#FFFFFF" height="313.7969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="1376" x="35" y="998.4141"/><path d="M35,1164.6094 L1411,1164.6094 L1411,1302.2109 A10,10 0 0 1 1401,1312.2109 L45,1312.2109 A10,10 0 0 1 35,1302.2109 L35,1164.6094 " fill="#FFFFFF" style="stroke:none;stroke-width:1.0;"/><rect fill="#FFFFFF" height="1044.5234" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="1416" x="15" y="1524.2734"/><path d="M15,1674.2031 L1431,1674.2031 L1431,2558.7969 A10,10 0 0 1 1421,2568.7969 L25,2568.7969 A10,10 0 0 1 15,2558.7969 L15,1674.2031 " fill="#FFFFFF" style="stroke:none;stroke-width:1.0;"/><rect fill="#FFFFFF" height="733.9922" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="1396" x="25" y="1827.8047"/><path d="M25,1963.7344 L1421,1963.7344 L1421,2551.7969 A10,10 0 0 1 1411,2561.7969 L35,2561.7969 A10,10 0 0 1 25,2551.7969 L25,1963.7344 " fill="#FFFFFF" style="stroke:none;stroke-width:1.0;"/><rect fill="#FFFFFF" height="494.7266" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="1376" x="35" y="2060.0703"/><path d="M35,2240.2656 L1411,2240.2656 L1411,2544.7969 A10,10 0 0 1 1401,2554.7969 L45,2554.7969 A10,10 0 0 1 35,2544.7969 L35,2240.2656 " fill="#FFFFFF" style="stroke:none;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="67" x2="67" y1="82.2969" y2="2585.7969"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="208" x2="208" y1="82.2969" y2="2585.7969"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="347" x2="347" y1="82.2969" y2="2585.7969"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="495" x2="495" y1="82.2969" y2="2585.7969"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="689.5" x2="689.5" y1="82.2969" y2="2585.7969"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="811.5" x2="811.5" y1="82.2969" y2="2585.7969"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="969" x2="969" y1="82.2969" y2="2585.7969"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1045" x2="1045" y1="82.2969" y2="2585.7969"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1120" x2="1120" y1="82.2969" y2="2585.7969"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1218" x2="1218" y1="82.2969" y2="2585.7969"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1341" x2="1341" y1="82.2969" y2="2585.7969"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="45" y="78.9951">Client</text><ellipse cx="67.5" cy="14" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M67.5,22 L67.5,49 M54.5,30 L80.5,30 M67.5,49 L54.5,64 M67.5,49 L80.5,64 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="45" y="2597.792">Client</text><ellipse cx="67.5" cy="2610.0938" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M67.5,2618.0938 L67.5,2645.0938 M54.5,2626.0938 L80.5,2626.0938 M67.5,2645.0938 L54.5,2660.0938 M67.5,2645.0938 L80.5,2660.0938 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="93" x="162" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="79" x="169" y="70.9951">UserRouter</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="93" x="162" y="2584.7969"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="79" x="169" y="2604.792">UserRouter</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="124" x="285" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="110" x="292" y="70.9951">AuthMiddleware</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="124" x="285" y="2584.7969"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="110" x="292" y="2604.792">AuthMiddleware</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="113" x="439" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="446" y="70.9951">UserController</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="113" x="439" y="2584.7969"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="446" y="2604.792">UserController</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="96" x="641.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="82" x="648.5" y="70.9951">UserService</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="96" x="641.5" y="2584.7969"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="82" x="648.5" y="2604.792">UserService</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="88" x="767.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="74" x="774.5" y="70.9951">UserModel</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="88" x="767.5" y="2584.7969"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="74" x="774.5" y="2604.792">UserModel</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="53" x="943" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="950" y="70.9951">Redis</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="53" x="943" y="2584.7969"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="950" y="2604.792">Redis</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="39" x="1026" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="25" x="1033" y="70.9951">JWT</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="39" x="1026" y="2584.7969"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="25" x="1033" y="2604.792">JWT</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="50" x="1095" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="36" x="1102" y="70.9951">Email</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="50" x="1095" y="2584.7969"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="36" x="1102" y="2604.792">Email</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="86" x="1175" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="1182" y="70.9951">Cloudinary</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="86" x="1175" y="2584.7969"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="1182" y="2604.792">Cloudinary</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="100" x="1291" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="1298" y="70.9951">ErrorHandler</text><rect fill="#FFFFFF" height="30.2969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="100" x="1291" y="2584.7969"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="1298" y="2604.792">ErrorHandler</text><rect fill="#FFFFFF" height="3" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.0;" width="1436" x="5" y="112.8633"/><line style="stroke:#000000;stroke-width:0.5;" x1="5" x2="1441" y1="112.8633" y2="112.8633"/><line style="stroke:#000000;stroke-width:0.5;" x1="5" x2="1441" y1="115.8633" y2="115.8633"/><rect fill="#FFFFFF" height="23.1328" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="186" x="630" y="102.2969"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="167" x="636" y="118.3638">User Registration Flow</text><polygon fill="#000000" points="196.5,213.0938,206.5,217.0938,196.5,221.0938,200.5,217.0938" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="67.5" x2="202.5" y1="217.0938" y2="217.0938"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="34" x="74.5" y="151.4966">POST</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="77" x="74.5" y="166.6294">/registration</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="49" x="74.5" y="181.7622">{name,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="39" x="74.5" y="196.895">email,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="68" x="74.5" y="212.0278">password}</text><polygon fill="#000000" points="483.5,242.2266,493.5,246.2266,483.5,250.2266,487.5,246.2266" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="208.5" x2="489.5" y1="246.2266" y2="246.2266"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="113" x="215.5" y="241.1606">registrationUser()</text><polygon fill="#000000" points="799.5,271.3594,809.5,275.3594,799.5,279.3594,803.5,275.3594" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="495.5" x2="805.5" y1="275.3594" y2="275.3594"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="110" x="502.5" y="270.2935">findOne({email})</text><path d="M35,290.3594 L89,290.3594 L89,297.4922 L79,307.4922 L25,307.4922 L25,300.3594 A10,10 0 0 1 35,290.3594 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="1028.8516" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="1396" x="25" y="290.3594"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="40" y="303.4263">alt</text><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="139" x="104" y="302.5698">[Email already exists]</text><polygon fill="#000000" points="506.5,339.7578,496.5,343.7578,506.5,347.7578,502.5,343.7578" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="500.5" x2="810.5" y1="343.7578" y2="343.7578"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="28" x="512.5" y="323.5591">user</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="37" x="512.5" y="338.6919">exists</text><polygon fill="#000000" points="1329,414.2891,1339,418.2891,1329,422.2891,1333,418.2891" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="495.5" x2="1335" y1="418.2891" y2="418.2891"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="40" x="502.5" y="367.8247">"Email</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="47" x="502.5" y="382.9575">already</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="39" x="502.5" y="398.0903">exist",</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="24" x="502.5" y="413.2231">400</text><polygon fill="#000000" points="78.5,458.5547,68.5,462.5547,78.5,466.5547,74.5,462.5547" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="72.5" x2="1340" y1="462.5547" y2="462.5547"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="59" x="84.5" y="442.356">400 Error</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="62" x="84.5" y="457.4888">Response</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="25" x2="1421" y1="471.5547" y2="471.5547"/><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="108" x="30" y="481.7651">[Email available]</text><polygon fill="#000000" points="506.5,502.4922,496.5,506.4922,506.5,510.4922,502.5,506.4922" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="500.5" x2="810.5" y1="506.4922" y2="506.4922"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="22" x="512.5" y="501.4263">null</text><line style="stroke:#000000;stroke-width:2.0;" x1="495.5" x2="537.5" y1="535.625" y2="535.625"/><line style="stroke:#000000;stroke-width:2.0;" x1="537.5" x2="537.5" y1="535.625" y2="548.625"/><line style="stroke:#000000;stroke-width:2.0;" x1="496.5" x2="537.5" y1="548.625" y2="548.625"/><polygon fill="#000000" points="506.5,544.625,496.5,548.625,506.5,552.625,502.5,548.625" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="180" x="502.5" y="530.5591">createActivationToken(user)</text><path d="M408,571.625 L408,591.625 A10,10 0 0 0 418,601.625 L573,601.625 A10,10 0 0 0 583,591.625 L583,571.625 L573,561.625 L418,561.625 A10,10 0 0 0 408,571.625 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M573,561.625 L573,566.625 A5,5 0 0 0 578,571.625 L583,571.625 L573,561.625 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="154" x="414" y="578.6919">Generate 4-digit code &amp;</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="138" x="414" y="593.8247">JWT token (5m expiry)</text><line style="stroke:#000000;stroke-width:2.0;" x1="495.5" x2="537.5" y1="673.4219" y2="673.4219"/><line style="stroke:#000000;stroke-width:2.0;" x1="537.5" x2="537.5" y1="673.4219" y2="686.4219"/><line style="stroke:#000000;stroke-width:2.0;" x1="496.5" x2="537.5" y1="686.4219" y2="686.4219"/><polygon fill="#000000" points="506.5,682.4219,496.5,686.4219,506.5,690.4219,502.5,686.4219" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="101" x="502.5" y="622.9575">Math.floor(1000</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="11" x="502.5" y="638.0903">+</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="96" x="502.5" y="653.2231">Math.random()</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="48" x="502.5" y="668.356">* 9000)</text><polygon fill="#000000" points="1033.5,756.9531,1043.5,760.9531,1033.5,764.9531,1037.5,760.9531" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="495.5" x2="1039.5" y1="760.9531" y2="760.9531"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="71" x="502.5" y="710.4888">sign({user,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="107" x="502.5" y="725.6216">activationCode},</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="136" x="502.5" y="740.7544">ACTIVATION_SECRET,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="26" x="502.5" y="755.8872">5m)</text><polygon fill="#000000" points="506.5,801.2188,496.5,805.2188,506.5,809.2188,502.5,805.2188" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="500.5" x2="1044.5" y1="805.2188" y2="805.2188"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="62" x="512.5" y="785.02">activation</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="36" x="512.5" y="800.1528">token</text><polygon fill="#000000" points="1108,845.4844,1118,849.4844,1108,853.4844,1112,849.4844" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="495.5" x2="1114" y1="849.4844" y2="849.4844"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="198" x="502.5" y="829.2856">renderFile("activation-mail.ejs",</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="34" x="502.5" y="844.4185">data)</text><polygon fill="#000000" points="506.5,904.8828,496.5,908.8828,506.5,912.8828,502.5,908.8828" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="500.5" x2="1119" y1="908.8828" y2="908.8828"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="35" x="512.5" y="873.5513">HTML</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="58" x="512.5" y="888.6841">template</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="58" x="512.5" y="903.8169">rendered</text><polygon fill="#000000" points="1108,979.4141,1118,983.4141,1108,987.4141,1112,983.4141" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="495.5" x2="1114" y1="983.4141" y2="983.4141"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="108" x="502.5" y="932.9497">sendMail({email,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="50" x="502.5" y="948.0825">subject,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="62" x="502.5" y="963.2153">template,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="42" x="502.5" y="978.3481">data})</text><path d="M45,998.4141 L99,998.4141 L99,1005.5469 L89,1015.5469 L35,1015.5469 L35,1008.4141 A10,10 0 0 1 45,998.4141 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="313.7969" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="1376" x="35" y="998.4141"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="50" y="1011.481">alt</text><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="135" x="114" y="1010.6245">[Email send success]</text><polygon fill="#000000" points="506.5,1062.9453,496.5,1066.9453,506.5,1070.9453,502.5,1066.9453" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="500.5" x2="1119" y1="1066.9453" y2="1066.9453"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="35" x="512.5" y="1031.6138">email</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="28" x="512.5" y="1046.7466">sent</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="76" x="512.5" y="1061.8794">successfully</text><polygon fill="#000000" points="78.5,1152.6094,68.5,1156.6094,78.5,1160.6094,74.5,1156.6094" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="72.5" x2="494.5" y1="1156.6094" y2="1156.6094"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="24" x="84.5" y="1091.0122">201</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="63" x="84.5" y="1106.145">{success:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="30" x="84.5" y="1121.2778">true,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="63" x="84.5" y="1136.4106">message,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="108" x="84.5" y="1151.5435">activationToken}</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="35" x2="1411" y1="1165.6094" y2="1165.6094"/><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="126" x="40" y="1175.8198">[Email send failure]</text><polygon fill="#000000" points="506.5,1211.6797,496.5,1215.6797,506.5,1219.6797,502.5,1215.6797" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="500.5" x2="1119" y1="1215.6797" y2="1215.6797"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="35" x="512.5" y="1195.481">email</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="31" x="512.5" y="1210.6138">error</text><polygon fill="#000000" points="1329,1255.9453,1339,1259.9453,1329,1263.9453,1333,1259.9453" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="495.5" x2="1335" y1="1259.9453" y2="1259.9453"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="98" x="502.5" y="1239.7466">error.message,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="24" x="502.5" y="1254.8794">400</text><polygon fill="#000000" points="78.5,1300.2109,68.5,1304.2109,78.5,1308.2109,74.5,1304.2109" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="72.5" x2="1340" y1="1304.2109" y2="1304.2109"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="59" x="84.5" y="1284.0122">400 Error</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="62" x="84.5" y="1299.145">Response</text><rect fill="#FFFFFF" height="3" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.0;" width="1436" x="5" y="1346.7773"/><line style="stroke:#000000;stroke-width:0.5;" x1="5" x2="1441" y1="1346.7773" y2="1346.7773"/><line style="stroke:#000000;stroke-width:0.5;" x1="5" x2="1441" y1="1349.7773" y2="1349.7773"/><rect fill="#FFFFFF" height="23.1328" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="169" x="638.5" y="1336.2109"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="150" x="644.5" y="1352.2778">User Activation Flow</text><polygon fill="#000000" points="196.5,1431.875,206.5,1435.875,196.5,1439.875,200.5,1435.875" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="67.5" x2="202.5" y1="1435.875" y2="1435.875"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="34" x="74.5" y="1385.4106">POST</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="88" x="74.5" y="1400.5435">/activate-user</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="117" x="74.5" y="1415.6763">{activation_token,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="108" x="74.5" y="1430.8091">activation_code}</text><polygon fill="#000000" points="483.5,1461.0078,493.5,1465.0078,483.5,1469.0078,487.5,1465.0078" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="208.5" x2="489.5" y1="1465.0078" y2="1465.0078"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="91" x="215.5" y="1459.9419">activateUser()</text><polygon fill="#000000" points="1033.5,1505.2734,1043.5,1509.2734,1033.5,1513.2734,1037.5,1509.2734" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="495.5" x2="1039.5" y1="1509.2734" y2="1509.2734"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="148" x="502.5" y="1489.0747">verify(activation_token,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="137" x="502.5" y="1504.2075">ACTIVATION_SECRET)</text><path d="M25,1524.2734 L79,1524.2734 L79,1531.4063 L69,1541.4063 L15,1541.4063 L15,1534.2734 A10,10 0 0 1 25,1524.2734 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="1044.5234" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="1416" x="15" y="1524.2734"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="30" y="1537.3403">alt</text><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="162" x="94" y="1536.4839">[Invalid or expired token]</text><polygon fill="#000000" points="506.5,1573.6719,496.5,1577.6719,506.5,1581.6719,502.5,1577.6719" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="500.5" x2="1044.5" y1="1577.6719" y2="1577.6719"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="69" x="512.5" y="1557.4731">verification</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="34" x="512.5" y="1572.606">failed</text><polygon fill="#000000" points="1329,1617.9375,1339,1621.9375,1329,1625.9375,1333,1621.9375" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="495.5" x2="1335" y1="1621.9375" y2="1621.9375"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="98" x="502.5" y="1601.7388">error.message,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="24" x="502.5" y="1616.8716">400</text><polygon fill="#000000" points="78.5,1662.2031,68.5,1666.2031,78.5,1670.2031,74.5,1666.2031" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="72.5" x2="1340" y1="1666.2031" y2="1666.2031"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="59" x="84.5" y="1646.0044">400 Error</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="62" x="84.5" y="1661.1372">Response</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="15" x2="1431" y1="1675.2031" y2="1675.2031"/><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="82" x="20" y="1685.4136">[Valid token]</text><polygon fill="#000000" points="506.5,1751.5391,496.5,1755.5391,506.5,1759.5391,502.5,1755.5391" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="500.5" x2="1044.5" y1="1755.5391" y2="1755.5391"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="40" x="512.5" y="1705.0747">{user:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="37" x="512.5" y="1720.2075">IUser,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="99" x="512.5" y="1735.3403">activationCode:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="44" x="512.5" y="1750.4731">string}</text><line style="stroke:#000000;stroke-width:2.0;" x1="495.5" x2="537.5" y1="1799.8047" y2="1799.8047"/><line style="stroke:#000000;stroke-width:2.0;" x1="537.5" x2="537.5" y1="1799.8047" y2="1812.8047"/><line style="stroke:#000000;stroke-width:2.0;" x1="496.5" x2="537.5" y1="1812.8047" y2="1812.8047"/><polygon fill="#000000" points="506.5,1808.8047,496.5,1812.8047,506.5,1816.8047,502.5,1812.8047" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="57" x="502.5" y="1779.606">compare</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="38" x="502.5" y="1794.7388">codes</text><path d="M35,1827.8047 L89,1827.8047 L89,1834.9375 L79,1844.9375 L25,1844.9375 L25,1837.8047 A10,10 0 0 1 35,1827.8047 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="733.9922" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="1396" x="25" y="1827.8047"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="40" y="1840.8716">alt</text><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="156" x="104" y="1840.0151">[Invalid activation code]</text><polygon fill="#000000" points="1329,1907.4688,1339,1911.4688,1329,1915.4688,1333,1911.4688" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="495.5" x2="1335" y1="1911.4688" y2="1911.4688"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="45" x="502.5" y="1861.0044">"Invalid</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="62" x="502.5" y="1876.1372">activation</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="42" x="502.5" y="1891.27">Code",</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="24" x="502.5" y="1906.4028">400</text><polygon fill="#000000" points="78.5,1951.7344,68.5,1955.7344,78.5,1959.7344,74.5,1955.7344" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="72.5" x2="1340" y1="1955.7344" y2="1955.7344"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="59" x="84.5" y="1935.5356">400 Error</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="62" x="84.5" y="1950.6685">Response</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="25" x2="1421" y1="1964.7344" y2="1964.7344"/><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="145" x="30" y="1974.9448">[Valid activation code]</text><polygon fill="#000000" points="799.5,2041.0703,809.5,2045.0703,799.5,2049.0703,803.5,2045.0703" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="495.5" x2="805.5" y1="2045.0703" y2="2045.0703"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="110" x="502.5" y="1994.606">findOne({email})</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="57" x="502.5" y="2009.7388">- check if</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="28" x="502.5" y="2024.8716">user</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="37" x="502.5" y="2040.0044">exists</text><path d="M45,2060.0703 L99,2060.0703 L99,2067.2031 L89,2077.2031 L35,2077.2031 L35,2070.0703 A10,10 0 0 1 45,2060.0703 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="494.7266" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;" width="1376" x="35" y="2060.0703"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="50" y="2073.1372">alt</text><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="133" x="114" y="2072.2808">[User already exists]</text><polygon fill="#000000" points="506.5,2109.4688,496.5,2113.4688,506.5,2117.4688,502.5,2113.4688" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="500.5" x2="810.5" y1="2113.4688" y2="2113.4688"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="49" x="512.5" y="2093.27">existing</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="28" x="512.5" y="2108.4028">user</text><polygon fill="#000000" points="1329,2184,1339,2188,1329,2192,1333,2188" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="495.5" x2="1335" y1="2188" y2="2188"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="40" x="502.5" y="2137.5356">"Email</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="47" x="502.5" y="2152.6685">already</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="39" x="502.5" y="2167.8013">Exist",</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="24" x="502.5" y="2182.9341">400</text><polygon fill="#000000" points="78.5,2228.2656,68.5,2232.2656,78.5,2236.2656,74.5,2232.2656" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="72.5" x2="1340" y1="2232.2656" y2="2232.2656"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="59" x="84.5" y="2212.0669">400 Error</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="62" x="84.5" y="2227.1997">Response</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="35" x2="1411" y1="2241.2656" y2="2241.2656"/><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="125" x="40" y="2251.4761">[User doesn't exist]</text><polygon fill="#000000" points="506.5,2272.2031,496.5,2276.2031,506.5,2280.2031,502.5,2276.2031" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="500.5" x2="810.5" y1="2276.2031" y2="2276.2031"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="22" x="512.5" y="2271.1372">null</text><polygon fill="#000000" points="799.5,2331.6016,809.5,2335.6016,799.5,2339.6016,803.5,2335.6016" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="495.5" x2="805.5" y1="2335.6016" y2="2335.6016"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="95" x="502.5" y="2300.27">create({name,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="39" x="502.5" y="2315.4028">email,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="73" x="502.5" y="2330.5356">password})</text><path d="M690,2358.6016 L690,2363.6016 A10,10 0 0 0 700,2373.6016 L922,2373.6016 A10,10 0 0 0 932,2363.6016 L932,2358.6016 L922,2348.6016 L700,2348.6016 A10,10 0 0 0 690,2358.6016 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M922,2348.6016 L922,2353.6016 A5,5 0 0 0 927,2358.6016 L932,2358.6016 L922,2348.6016 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="221" x="696" y="2365.6685">Password hashed in pre-save hook</text><line style="stroke:#000000;stroke-width:2.0;" x1="811.5" x2="853.5" y1="2415" y2="2415"/><line style="stroke:#000000;stroke-width:2.0;" x1="853.5" x2="853.5" y1="2415" y2="2428"/><line style="stroke:#000000;stroke-width:2.0;" x1="812.5" x2="853.5" y1="2428" y2="2428"/><polygon fill="#000000" points="822.5,2424,812.5,2428,822.5,2432,818.5,2428" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="144" x="818.5" y="2394.8013">bcrypt.hash(password,</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="21" x="818.5" y="2409.9341">10)</text><polygon fill="#000000" points="506.5,2483.3984,496.5,2487.3984,506.5,2491.3984,502.5,2487.3984" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="500.5" x2="810.5" y1="2487.3984" y2="2487.3984"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="28" x="512.5" y="2452.0669">user</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="49" x="512.5" y="2467.1997">created</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="53" x="512.5" y="2482.3325">&amp; saved</text><polygon fill="#000000" points="78.5,2542.7969,68.5,2546.7969,78.5,2550.7969,74.5,2546.7969" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;stroke-dasharray:2.0,2.0;" x1="72.5" x2="494.5" y1="2546.7969" y2="2546.7969"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="24" x="84.5" y="2511.4653">201</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="63" x="84.5" y="2526.5981">{success:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="34" x="84.5" y="2541.731">true}</text><!--MD5=[219c1d480e78ffc00fe9fac3e0c0eba6]
+@startuml
+!theme plain
+skinparam backgroundColor #FFFFFF
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 20
+skinparam maxmessagesize 60
+
+actor Client
+participant "UserRouter" as Router
+participant "AuthMiddleware" as Auth
+participant "UserController" as Controller
+participant "UserService" as Service
+participant "UserModel" as Model
+participant "Redis" as Redis
+participant "JWT" as JWT
+participant "Email" as Email
+participant "Cloudinary" as Cloud
+participant "ErrorHandler" as Error
+
+== User Registration Flow ==
+Client -> Router: POST /registration\n{name, email, password}
+Router -> Controller: registrationUser()
+Controller -> Model: findOne({email})
+
+alt Email already exists
+    Model - -> Controller: user exists
+    Controller -> Error: "Email already exist", 400
+    Error - -> Client: 400 Error Response
+else Email available
+    Model - -> Controller: null
+    Controller -> Controller: createActivationToken(user)
+    note over Controller: Generate 4-digit code &\nJWT token (5m expiry)
+    Controller -> Controller: Math.floor(1000 + Math.random() * 9000)
+    Controller -> JWT: sign({user, activationCode},\nACTIVATION_SECRET, 5m)
+    JWT - -> Controller: activation token
+    Controller -> Email: renderFile("activation-mail.ejs", data)
+    Email - -> Controller: HTML template rendered
+    Controller -> Email: sendMail({email, subject, template, data})
+    
+    alt Email send success
+        Email - -> Controller: email sent successfully
+        Controller - -> Client: 201 {success: true, message, activationToken}
+    else Email send failure
+        Email - -> Controller: email error
+        Controller -> Error: error.message, 400
+        Error - -> Client: 400 Error Response
+    end
+end
+
+== User Activation Flow ==
+Client -> Router: POST /activate-user\n{activation_token, activation_code}
+Router -> Controller: activateUser()
+Controller -> JWT: verify(activation_token, ACTIVATION_SECRET)
+
+alt Invalid or expired token
+    JWT - -> Controller: verification failed
+    Controller -> Error: error.message, 400
+    Error - -> Client: 400 Error Response
+else Valid token
+    JWT - -> Controller: {user: IUser, activationCode: string}
+    Controller -> Controller: compare codes
+    
+    alt Invalid activation code
+        Controller -> Error: "Invalid activation Code", 400
+        Error - -> Client: 400 Error Response
+    else Valid activation code
+        Controller -> Model: findOne({email}) - check if user exists
+        
+        alt User already exists
+            Model - -> Controller: existing user
+            Controller -> Error: "Email already Exist", 400
+            Error - -> Client: 400 Error Response
+        else User doesn't exist
+            Model - -> Controller: null
+            Controller -> Model: create({name, email, password})
+            note over Model: Password hashed in pre-save hook
+            Model -> Model: bcrypt.hash(password, 10)
+            Model - -> Controller: user created & saved
+            Controller - -> Client: 201 {success: true}
+        end
+    end
+end
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor white
+    FontColor black
+    FontName Verdana
+    HyperLinkColor blue
+    LineColor black
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor black
+skinparam BackgroundColor white
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor black
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor black
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor black
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor white
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor black
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor black
+  FontName Verdana
+}
+skinparam Header {
+  FontColor black
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color blue
+}
+skinparam IconPackage {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPrivate {
+  Color black
+  BackgroundColor white
+}
+skinparam IconProtected {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPublic {
+  Color black
+  BackgroundColor white
+}
+skinparam Note {
+  FontColor black
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor black
+}
+skinparam Package {
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeA {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeC {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeE {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeI {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeN {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam UseCaseStereoType {
+  FontColor black
+  FontName Verdana
+}
+skinparam backgroundColor #FFFFFF
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 20
+skinparam maxmessagesize 60
+
+actor Client
+participant "UserRouter" as Router
+participant "AuthMiddleware" as Auth
+participant "UserController" as Controller
+participant "UserService" as Service
+participant "UserModel" as Model
+participant "Redis" as Redis
+participant "JWT" as JWT
+participant "Email" as Email
+participant "Cloudinary" as Cloud
+participant "ErrorHandler" as Error
+
+== User Registration Flow ==
+Client -> Router: POST /registration\n{name, email, password}
+Router -> Controller: registrationUser()
+Controller -> Model: findOne({email})
+
+alt Email already exists
+    Model - -> Controller: user exists
+    Controller -> Error: "Email already exist", 400
+    Error - -> Client: 400 Error Response
+else Email available
+    Model - -> Controller: null
+    Controller -> Controller: createActivationToken(user)
+    note over Controller: Generate 4-digit code &\nJWT token (5m expiry)
+    Controller -> Controller: Math.floor(1000 + Math.random() * 9000)
+    Controller -> JWT: sign({user, activationCode},\nACTIVATION_SECRET, 5m)
+    JWT - -> Controller: activation token
+    Controller -> Email: renderFile("activation-mail.ejs", data)
+    Email - -> Controller: HTML template rendered
+    Controller -> Email: sendMail({email, subject, template, data})
+    
+    alt Email send success
+        Email - -> Controller: email sent successfully
+        Controller - -> Client: 201 {success: true, message, activationToken}
+    else Email send failure
+        Email - -> Controller: email error
+        Controller -> Error: error.message, 400
+        Error - -> Client: 400 Error Response
+    end
+end
+
+== User Activation Flow ==
+Client -> Router: POST /activate-user\n{activation_token, activation_code}
+Router -> Controller: activateUser()
+Controller -> JWT: verify(activation_token, ACTIVATION_SECRET)
+
+alt Invalid or expired token
+    JWT - -> Controller: verification failed
+    Controller -> Error: error.message, 400
+    Error - -> Client: 400 Error Response
+else Valid token
+    JWT - -> Controller: {user: IUser, activationCode: string}
+    Controller -> Controller: compare codes
+    
+    alt Invalid activation code
+        Controller -> Error: "Invalid activation Code", 400
+        Error - -> Client: 400 Error Response
+    else Valid activation code
+        Controller -> Model: findOne({email}) - check if user exists
+        
+        alt User already exists
+            Model - -> Controller: existing user
+            Controller -> Error: "Email already Exist", 400
+            Error - -> Client: 400 Error Response
+        else User doesn't exist
+            Model - -> Controller: null
+            Controller -> Model: create({name, email, password})
+            note over Model: Password hashed in pre-save hook
+            Model -> Model: bcrypt.hash(password, 10)
+            Model - -> Controller: user created & saved
+            Controller - -> Client: 201 {success: true}
+        end
+    end
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
